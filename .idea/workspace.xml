@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day02/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day01/Solution_01.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day02/Solution_02.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/day03/Solution_03.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/Solution.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dayo3/T.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bisai/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,11 +36,6 @@
         <option name="userSettingsFile" value="$USER_HOME$/java/apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -58,7 +46,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -78,11 +65,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day05" />
+      <recent name="day01" />
+      <recent name="bisai" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T">
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bisai.Solution" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bisai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="day01.Solution_01" />
       <module name="LeetCode" />
@@ -135,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Test" />
+    <configuration name="T01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bisai.T01" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="bisai.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,24 +155,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.T01" />
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.T" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -184,11 +178,29 @@
       <workItem from="1586415368243" duration="88000" />
       <workItem from="1586488518820" duration="3199000" />
       <workItem from="1586580863884" duration="6719000" />
+      <workItem from="1586591794852" duration="48000" />
+      <workItem from="1586746981311" duration="687000" />
+      <workItem from="1586759760294" duration="296000" />
+      <workItem from="1587193131315" duration="126000" />
+      <workItem from="1587193267235" duration="6328000" />
+      <workItem from="1587263723162" duration="2263000" />
     </task>
+    <task id="LOCAL-00001" summary="day04">
+      <created>1586591812550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586591812551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day04" />
+    <option name="LAST_COMMIT_MESSAGE" value="day04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Project_Structure" timestamp="1586320549580">
@@ -200,9 +212,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586584503172" />
-    <state x="-960" y="248" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586310700777">
+    <state x="-960" y="248" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1587194108668">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-960" y="248" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587194108668" />
     <state x="-960" y="248" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310700777" />
     <state x="1111" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586329383717">
       <screen x="0" y="23" width="1920" height="991" />
@@ -216,37 +229,49 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1170" y="440" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586493806272" />
-    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1586591791015">
+    <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1587195042122">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
+    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1586591812132">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591812132" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1587206343826">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586501026966" />
+    <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587206343826" />
     <state width="1878" height="226" key="GridCell.Tab.0.bottom/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591791015" />
     <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1440.812/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586317176838" />
     <state width="1878" height="273" key="GridCell.Tab.0.bottom/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586320703572" />
     <state width="1878" height="144" key="GridCell.Tab.0.bottom/0.23.1440.816/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586314718710" />
     <state width="951" height="273" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1586331347222" />
-    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1586591791013">
+    <state width="1878" height="226" key="GridCell.Tab.0.center" timestamp="1587206343825">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="295" key="GridCell.Tab.0.center/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586501026965" />
+    <state width="1878" height="226" key="GridCell.Tab.0.center/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587206343825" />
     <state width="1878" height="226" key="GridCell.Tab.0.center/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591791013" />
     <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1440.812/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586317176835" />
     <state width="1878" height="273" key="GridCell.Tab.0.center/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586320703570" />
     <state width="1878" height="144" key="GridCell.Tab.0.center/0.23.1440.816/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586314718708" />
     <state width="951" height="273" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1586331347221" />
-    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1586591791013">
+    <state width="1878" height="226" key="GridCell.Tab.0.left" timestamp="1587206343824">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="295" key="GridCell.Tab.0.left/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586501026964" />
+    <state width="1878" height="226" key="GridCell.Tab.0.left/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587206343824" />
     <state width="1878" height="226" key="GridCell.Tab.0.left/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591791013" />
     <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1440.812/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586317176834" />
     <state width="1878" height="273" key="GridCell.Tab.0.left/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586320703570" />
     <state width="1878" height="144" key="GridCell.Tab.0.left/0.23.1440.816/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586314718706" />
     <state width="951" height="273" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1586331347221" />
-    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1586591791014">
+    <state width="1878" height="226" key="GridCell.Tab.0.right" timestamp="1587206343825">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="295" key="GridCell.Tab.0.right/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586501026966" />
+    <state width="1878" height="226" key="GridCell.Tab.0.right/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587206343825" />
     <state width="1878" height="226" key="GridCell.Tab.0.right/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591791014" />
     <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1440.812/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586317176837" />
     <state width="1878" height="273" key="GridCell.Tab.0.right/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586320703571" />
@@ -256,15 +281,24 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1422" y="213" key="Maven.ArtifactSearchDialog/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586401846169" />
-    <state x="-1338" y="133" key="SettingsEditor" timestamp="1586310721928">
+    <state x="-1338" y="133" key="SettingsEditor" timestamp="1587193261099">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1338" y="133" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587193261099" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1586591820748">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591820748" />
     <state x="488" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586328783790">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="-1432" y="161" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.812/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586317172381" />
     <state x="488" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.991@0.23.1920.991" timestamp="1586328783790" />
+    <state x="-1250" y="342" key="refactoring.ChangeSignatureDialog" timestamp="1587195037213">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1250" y="342" key="refactoring.ChangeSignatureDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195037213" />
     <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1586313870569">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
