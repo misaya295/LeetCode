@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bisai/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -74,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bisai.Solution" />
       <module name="LeetCode" />
@@ -88,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Solution_01" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day06.Solution" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.T01" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.T" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +178,8 @@
       <workItem from="1586759760294" duration="296000" />
       <workItem from="1587193131315" duration="126000" />
       <workItem from="1587193267235" duration="6328000" />
-      <workItem from="1587263723162" duration="2263000" />
+      <workItem from="1587263723162" duration="2389000" />
+      <workItem from="1587352036891" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586591812551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day05">
+      <created>1587267587531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587267587531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day04" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04" />
+    <MESSAGE value="day05" />
+    <option name="LAST_COMMIT_MESSAGE" value="day05" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Project_Structure" timestamp="1586320549580">
@@ -233,10 +237,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1586591812132">
+    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1587267587105">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591812132" />
+    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587267587105" />
     <state width="1878" height="226" key="GridCell.Tab.0.bottom" timestamp="1587206343826">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -281,15 +285,15 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1422" y="213" key="Maven.ArtifactSearchDialog/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586401846169" />
-    <state x="-1338" y="133" key="SettingsEditor" timestamp="1587193261099">
+    <state x="-1338" y="133" key="SettingsEditor" timestamp="1587358017803">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1338" y="133" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587193261099" />
+    <state x="-1338" y="133" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587358017803" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1586591820748">
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1587267591877">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586591820748" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587267591877" />
     <state x="488" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586328783790">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
