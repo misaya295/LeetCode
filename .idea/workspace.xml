@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day07/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day08/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day07/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day07/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +182,8 @@
       <workItem from="1587193267235" duration="6328000" />
       <workItem from="1587263723162" duration="2389000" />
       <workItem from="1587352036891" duration="5020000" />
-      <workItem from="1587438605740" duration="2122000" />
+      <workItem from="1587438605740" duration="2300000" />
+      <workItem from="1587517202320" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -203,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587358193106</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优美子数组,滑动窗口解">
+      <created>1587445164122</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587445164122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +223,8 @@
     <MESSAGE value="day04" />
     <MESSAGE value="day05" />
     <MESSAGE value="岛屿问题 深度优先解" />
-    <option name="LAST_COMMIT_MESSAGE" value="岛屿问题 深度优先解" />
+    <MESSAGE value="优美子数组,滑动窗口解" />
+    <option name="LAST_COMMIT_MESSAGE" value="优美子数组,滑动窗口解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1360" y="217" key="#Project_Structure" timestamp="1586320549580">
@@ -246,10 +257,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1587358192767">
+    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1587445163757">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587358192767" />
+    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587445163757" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587267587105" />
     <state width="1878" height="211" key="GridCell.Tab.0.bottom" timestamp="1587358212043">
       <screen x="-1920" y="23" width="1920" height="1002" />
@@ -304,10 +315,10 @@
     </state>
     <state x="-1338" y="133" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587358017803" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1587358199757">
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1587445169190">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587358199757" />
+    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587445169190" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587267591877" />
     <state x="488" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586328783790">
       <screen x="0" y="23" width="1920" height="991" />
