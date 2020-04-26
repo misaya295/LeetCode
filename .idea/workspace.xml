@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day10/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,9 @@
       <workItem from="1587517202320" duration="3907000" />
       <workItem from="1587610812586" duration="11472000" />
       <workItem from="1587709492504" duration="611000" />
-      <workItem from="1587710542796" duration="3412000" />
+      <workItem from="1587710542796" duration="3493000" />
+      <workItem from="1587790442316" duration="1525000" />
+      <workItem from="1587868973922" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587626785431</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="逆序对 归并排序">
+      <created>1587714103809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587714103809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +238,8 @@
     <MESSAGE value="优美子数组,滑动窗口解" />
     <MESSAGE value="二叉树右节点遍历（dfs深度优先递归）" />
     <MESSAGE value="硬币问题 dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="硬币问题 dp" />
+    <MESSAGE value="逆序对 归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="逆序对 归并排序" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1326" y="237" key="#Inspections" timestamp="1587621575295">
@@ -270,10 +281,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1587626785088">
+    <state x="-1351" y="154" key="CommitChangelistDialog2" timestamp="1587714103275">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587626785088" />
+    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587714103275" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.723/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587267587105" />
     <state width="1878" height="191" key="GridCell.Tab.0.bottom" timestamp="1587636746665">
       <screen x="-1920" y="23" width="1920" height="1057" />
@@ -346,6 +357,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587711951067" />
+    <state x="-1593" y="215" key="new project wizard" timestamp="1587796276828">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1593" y="215" key="new project wizard/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587796276828" />
     <state x="-1250" y="342" key="refactoring.ChangeSignatureDialog" timestamp="1587195037213">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
