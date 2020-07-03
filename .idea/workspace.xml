@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/Main9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题378/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题108/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +214,8 @@
       <workItem from="1593495264947" duration="143000" />
       <workItem from="1593504183666" duration="1734000" />
       <workItem from="1593506473352" duration="855000" />
-      <workItem from="1593694901906" duration="1443000" />
+      <workItem from="1593694901906" duration="1481000" />
+      <workItem from="1593744190329" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -427,14 +427,20 @@
       <option name="project" value="LOCAL" />
       <updated>1591970221013</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="第k个数">
+      <created>1593696372817</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1593696372817</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="硬币问题 dp" />
     <MESSAGE value="逆序对 归并排序" />
     <MESSAGE value="链表排序" />
     <MESSAGE value="搜索旋转排序数组 （暴力法和二分查找）" />
@@ -459,7 +465,8 @@
     <MESSAGE value="数组乘积" />
     <MESSAGE value="矩阵顺时针输出" />
     <MESSAGE value="三数合" />
-    <option name="LAST_COMMIT_MESSAGE" value="三数合" />
+    <MESSAGE value="第k个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="第k个数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1326" y="237" key="#Inspections" timestamp="1587621575295">
@@ -508,8 +515,8 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="162" key="CommitChangelistDialog2" timestamp="1591970220755">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="427" y="23" key="CommitChangelistDialog2" timestamp="1593696372515">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577345777" />
     <state x="-1228" y="234" key="CommitChangelistDialog2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034613918" />
@@ -519,6 +526,7 @@
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894381800" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545823103" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.999@-1920.23.1920.999" timestamp="1591323218547" />
+    <state x="427" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1593696372515" />
     <state x="569" y="147" key="CommitChangelistDialog2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869609943" />
     <state x="692" y="234" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377423077" />
     <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1589006683700">
@@ -598,8 +606,8 @@
     </state>
     <state x="-1338" y="133" width="1232" height="722" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587614729852" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1591970226538">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="420" y="232" key="Vcs.Push.Dialog.v2" timestamp="1593696380122">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577355504" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034619267" />
@@ -609,6 +617,7 @@
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894388063" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.727/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591323227092" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545827287" />
+    <state x="420" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1593696380122" />
     <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869615753" />
     <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377429666" />
     <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
