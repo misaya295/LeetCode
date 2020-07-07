@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/动态规划/题63/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题32/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/二叉树/题112/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="654ca3f5-44d2-4bb5-bbb7-3faa6f017363" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -220,6 +222,9 @@
       <workItem from="1593854138717" duration="2363000" />
       <workItem from="1594003651703" duration="87000" />
       <workItem from="1594037882118" duration="2642000" />
+      <workItem from="1594045121147" duration="501000" />
+      <workItem from="1594087915963" duration="44000" />
+      <workItem from="1594090333639" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -445,14 +450,20 @@
       <option name="project" value="LOCAL" />
       <updated>1593745007057</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="机器人走迷宫 dp">
+      <created>1594045261480</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1594045261480</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="链表排序" />
     <MESSAGE value="搜索旋转排序数组 （暴力法和二分查找）" />
     <MESSAGE value="数组数字个数 异或" />
     <MESSAGE value="山峰数组找target 二分法" />
@@ -477,7 +488,8 @@
     <MESSAGE value="三数合" />
     <MESSAGE value="第k个数" />
     <MESSAGE value="将有序数组转换为二叉搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="将有序数组转换为二叉搜索树" />
+    <MESSAGE value="机器人走迷宫 dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器人走迷宫 dp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1326" y="237" key="#Inspections" timestamp="1587621575295">
@@ -526,8 +538,8 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="23" key="CommitChangelistDialog2" timestamp="1593745006489">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1594045260776">
+      <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577345777" />
     <state x="-1228" y="234" key="CommitChangelistDialog2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034613918" />
@@ -541,6 +553,11 @@
     <state x="427" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1593696372515" />
     <state x="569" y="147" key="CommitChangelistDialog2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869609943" />
     <state x="692" y="234" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377423077" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045260776" />
+    <state x="-1104" y="479" key="Github.Dialog.Accounts.Choose" timestamp="1594045280054">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1104" y="479" key="Github.Dialog.Accounts.Choose/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045280054" />
     <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1589006683700">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -618,8 +635,8 @@
     </state>
     <state x="-1338" y="133" width="1232" height="722" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587614729852" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2" timestamp="1593745011425">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1594045270624">
+      <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577355504" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034619267" />
@@ -633,6 +650,7 @@
     <state x="420" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1593696380122" />
     <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869615753" />
     <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377429666" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045270624" />
     <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
