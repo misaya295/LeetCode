@@ -24,6 +24,7 @@ package leetcode.力扣题.二叉树.题112;
 class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
 
+
         if (root == null) {
             return false;
         }

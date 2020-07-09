@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/二叉树/题112/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/面试题/题16_11/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/二叉树/题112/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/二叉树/题112/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +225,10 @@
       <workItem from="1594037882118" duration="2642000" />
       <workItem from="1594045121147" duration="501000" />
       <workItem from="1594087915963" duration="44000" />
-      <workItem from="1594090333639" duration="1718000" />
+      <workItem from="1594090333639" duration="1757000" />
+      <workItem from="1594125922506" duration="54000" />
+      <workItem from="1594210808793" duration="1740000" />
+      <workItem from="1594214055878" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -457,14 +461,20 @@
       <option name="project" value="LOCAL" />
       <updated>1594045261480</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="二叉树 路径和 递归">
+      <created>1594092286880</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1594092286881</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="搜索旋转排序数组 （暴力法和二分查找）" />
     <MESSAGE value="数组数字个数 异或" />
     <MESSAGE value="山峰数组找target 二分法" />
     <MESSAGE value="跳跃问题" />
@@ -489,7 +499,8 @@
     <MESSAGE value="第k个数" />
     <MESSAGE value="将有序数组转换为二叉搜索树" />
     <MESSAGE value="机器人走迷宫 dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="机器人走迷宫 dp" />
+    <MESSAGE value="二叉树 路径和 递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树 路径和 递归" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1326" y="237" key="#Inspections" timestamp="1587621575295">
@@ -538,7 +549,7 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1594045260776">
+    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1594092286496">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577345777" />
@@ -554,6 +565,7 @@
     <state x="569" y="147" key="CommitChangelistDialog2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869609943" />
     <state x="692" y="234" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377423077" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045260776" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092286496" />
     <state x="-1104" y="479" key="Github.Dialog.Accounts.Choose" timestamp="1594045280054">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
@@ -635,7 +647,7 @@
     </state>
     <state x="-1338" y="133" width="1232" height="722" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587614729852" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1594045270624">
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1594092293351">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577355504" />
@@ -651,6 +663,7 @@
     <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869615753" />
     <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377429666" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045270624" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092293351" />
     <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
