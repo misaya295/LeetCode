@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/面试题/题17_13/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/动态规划/题309/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +229,9 @@
       <workItem from="1594210808793" duration="1740000" />
       <workItem from="1594214055878" duration="1394000" />
       <workItem from="1594263027317" duration="66000" />
-      <workItem from="1594301771537" duration="1234000" />
+      <workItem from="1594301771537" duration="1570000" />
+      <workItem from="1594374516421" duration="412000" />
+      <workItem from="1594382720341" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -476,14 +478,20 @@
       <option name="project" value="LOCAL" />
       <updated>1594263068071</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="字符串匹配 dp">
+      <created>1594305627713</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1594305627713</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="山峰数组找target 二分法" />
     <MESSAGE value="跳跃问题" />
     <MESSAGE value="旅行问题 dp" />
     <MESSAGE value="包含子树 递归" />
@@ -508,7 +516,8 @@
     <MESSAGE value="机器人走迷宫 dp" />
     <MESSAGE value="二叉树 路径和 递归" />
     <MESSAGE value="跳板 数学" />
-    <option name="LAST_COMMIT_MESSAGE" value="跳板 数学" />
+    <MESSAGE value="字符串匹配 dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串匹配 dp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1342" y="38" key="#Auto_Import" timestamp="1594305242558">
@@ -561,7 +570,7 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="306" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587195042122" />
-    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1594263067458">
+    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1594305627429">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577345777" />
@@ -579,6 +588,7 @@
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594263067458" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045260776" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092286496" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305627429" />
     <state x="-1104" y="479" key="Github.Dialog.Accounts.Choose" timestamp="1594045280054">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
@@ -660,7 +670,7 @@
     </state>
     <state x="-1338" y="133" width="1232" height="722" key="SettingsEditor/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587614729852" />
     <state x="-1338" y="133" key="SettingsEditor/0.23.1440.814/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1586310721928" />
-    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1594263076104">
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1594305638767">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577355504" />
@@ -678,6 +688,7 @@
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594263076104" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045270624" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092293351" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305638767" />
     <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -693,15 +704,20 @@
     <state x="-965" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577332447" />
     <state x="-965" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034602540" />
     <state x="-965" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587521756516" />
+    <state x="-1635" y="419" key="git4idea.rebase.GitRebaseDialog" timestamp="1594305634344">
+      <screen x="-1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="-1635" y="419" key="git4idea.rebase.GitRebaseDialog/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305634344" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1589693227695">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1589693227695" />
     <state width="600" height="428" key="javadoc.popup/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587711951067" />
-    <state x="-1593" y="215" key="new project wizard" timestamp="1587796276828">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="-1593" y="217" key="new project wizard" timestamp="1594374928713">
+      <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1593" y="215" key="new project wizard/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587796276828" />
+    <state x="-1593" y="217" key="new project wizard/0.25.1440.815/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594374928713" />
     <state x="-1250" y="342" key="refactoring.ChangeSignatureDialog" timestamp="1587195037213">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
