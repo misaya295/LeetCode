@@ -3,47 +3,23 @@ package bisai;
 class Solution {
     public static void main(String[] args) {
 
-
-        int[] a = new int[3];
-        a[0]= 2;
-        a[1]=3;
-        a[2] =10;
-
-
-
-        Solution solution = new Solution();
-
-        int b =solution.minCount(a);
-
-        System.out.println(b);
+        test();
     }
-    public int minCount(int[] coins) {
+
+    private static void   test(){
 
 
-        int  sum = 0 ;
+       int c= 0;
+        for (int i = 2147483647; i >= 0; i -= 2) {
 
-
-        for (int i = 0; i <= coins.length-1; i++) {
-
-
-
-            if(coins[i] % 2 == 0){
-
-
-                sum = sum + (coins[i]/2);
-
-            }else if (coins[i] %2  != 0){
-
-
-
-                sum = sum + 1 + (coins[i]/2);
-
-
+            c = i *100;
+            if (c >= 0 && c <= 5) {
+                System.out.println("i="+i);
+                System.out.println("c="+c);
             }
-        }
-//        System.out.println("sum=" + sum);
 
-        return sum;
+        }
+
 
     }
 
