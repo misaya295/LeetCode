@@ -21,5 +21,14 @@
         </plugins>
     </build>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.pdfbox/com.springsource.org.pdfbox -->
+        <dependency>
+            <groupId>org.pdfbox</groupId>
+            <artifactId>com.springsource.org.pdfbox</artifactId>
+            <version>0.7.3</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
