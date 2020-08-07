@@ -52,6 +52,7 @@ class Solution {
 
             val = x;
         }
+        
     }
 
     public int rob(TreeNode root) {

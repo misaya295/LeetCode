@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题337/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题100/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题337/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题337/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +245,10 @@
       <workItem from="1596509436708" duration="849000" />
       <workItem from="1596542916000" duration="30000" />
       <workItem from="1596543467264" duration="540000" />
-      <workItem from="1596628864113" duration="1199000" />
+      <workItem from="1596628864113" duration="1267000" />
+      <workItem from="1596674030417" duration="103000" />
+      <workItem from="1596712881738" duration="598000" />
+      <workItem from="1596801087914" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="day04">
       <created>1586591812550</created>
@@ -520,14 +523,20 @@
       <option name="project" value="LOCAL" />
       <updated>1595433483055</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="程序员转型当小偷 用了暴力">
+      <created>1596630114131</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1596630114131</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="开平方根 二分法" />
     <MESSAGE value="公共祖先 递归" />
     <MESSAGE value="栈问题" />
     <MESSAGE value="遍历二叉树" />
@@ -552,7 +561,8 @@
     <MESSAGE value="股票 dp" />
     <MESSAGE value="集合 哈希" />
     <MESSAGE value="旋转数组最小值 二分" />
-    <option name="LAST_COMMIT_MESSAGE" value="旋转数组最小值 二分" />
+    <MESSAGE value="程序员转型当小偷 用了暴力" />
+    <option name="LAST_COMMIT_MESSAGE" value="程序员转型当小偷 用了暴力" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1342" y="38" key="#Auto_Import" timestamp="1594305242558">
@@ -578,8 +588,8 @@
     </state>
     <state x="-1298" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1589774395898" />
     <state x="-1298" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545410837" />
-    <state x="569" y="25" key="CommitChangelistDialog2" timestamp="1595433482669">
-      <screen x="0" y="25" width="1920" height="995" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1596630113832">
+      <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577345777" />
     <state x="-1228" y="234" key="CommitChangelistDialog2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034613918" />
@@ -591,11 +601,11 @@
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545823103" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.999@-1920.23.1920.999" timestamp="1591323218547" />
     <state x="427" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1593696372515" />
-    <state x="569" y="147" key="CommitChangelistDialog2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869609943" />
     <state x="692" y="234" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377423077" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594386781305" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045260776" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092286496" />
+    <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596630113832" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305627429" />
     <state x="569" y="25" key="CommitChangelistDialog2/0.25.1920.995@0.25.1920.995" timestamp="1595433482669" />
     <state x="-1104" y="479" key="Github.Dialog.Accounts.Choose" timestamp="1594045280054">
@@ -679,8 +689,8 @@
     </state>
     <state x="-1338" y="135" width="1232" height="728" key="SettingsEditor/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387267590" />
     <state x="-1338" y="135" key="SettingsEditor/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596509565538" />
-    <state x="560" y="277" key="Vcs.Push.Dialog.v2" timestamp="1595433492434">
-      <screen x="0" y="25" width="1920" height="995" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2" timestamp="1596630119194">
+      <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.719/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1588577355504" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590034619267" />
@@ -692,11 +702,11 @@
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.729/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593745011425" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545827287" />
     <state x="420" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1593696380122" />
-    <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1002@0.23.1920.1002" timestamp="1587869615753" />
     <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377429666" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387358730" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045270624" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092293351" />
+    <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596630119194" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305638767" />
     <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.25.1920.995@0.25.1920.995" timestamp="1595433492434" />
     <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
@@ -717,14 +727,11 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.721/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1589693227695" />
-    <state x="-1593" y="217" key="new project wizard" timestamp="1594374928713">
+    <state x="-1593" y="217" key="new project wizard" timestamp="1596674039399">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
+    <state x="-1593" y="217" key="new project wizard/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596674039399" />
     <state x="-1593" y="217" key="new project wizard/0.25.1440.815/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594374928713" />
-    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1587969972816">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587969972816" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
