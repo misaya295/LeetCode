@@ -89,7 +89,8 @@ class Solution {
 
         for (Node neigubor : node.neighbors
         ) {
-            cloneNode.neighbors.add(neigubor);
+            cloneNode.neighbors.add(cloneGraph(neigubor));
+
         }
 
 
