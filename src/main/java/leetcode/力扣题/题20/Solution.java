@@ -64,6 +64,8 @@ class Solution {
                 stack.push(ch);
             }
         }
+
+
         return stack.isEmpty();
     }
 }
