@@ -28,6 +28,39 @@ import java.util.Set;
 class Solution {
     public int findRepeatNumber(int[] nums) {
 
+
+        /*
+         * 最优解
+         */
+            int n = nums.length;
+
+
+                // for(int i = 0; i < n; i++)
+                // {
+                //     if(nums[i] < 0 || nums[i] >= n) return -1;
+                // }
+
+                for (int i = 0; i < n; i++) {
+                    if(nums[i] < 0 || nums[i] >= n) return -1;
+                    while( nums[i] != i && nums[nums[i]] != nums[i])
+                    {
+                        int temp = nums[nums[i]];
+                        nums[nums[i]] = nums[i];
+                        nums[i] = temp;
+                    }
+
+                    if(i != nums[i] && nums[nums[i]] == nums[i]) return nums[i];
+
+
+                }
+                return -1;
+
+
+
+
+
+
+
         /*
          * 解法一
          */
@@ -44,14 +77,13 @@ class Solution {
         /*
          * 解法二
          */
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == nums[i + 1]) {
-                return nums[i];
-            }
-
-        }
-        return -1;
+//        Arrays.sort(nums);
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] == nums[i + 1]) {
+//                return nums[i];
+//            }
+//
+//        }
 
     }
 }

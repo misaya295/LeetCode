@@ -1,4 +1,4 @@
-package leetcode.剑指offer.题10;
+package leetcode.剑指offer.题10.I;
 
 
 /**
