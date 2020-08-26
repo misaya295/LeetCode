@@ -19,9 +19,9 @@ import javax.crypto.Mac;
   [10, 13, 14, 17, 24],
   [18, 21, 23, 26, 30]
 ]
-给定 target = 5，返回 true。
+给定 target=5，返回true。
 
-给定 target = 20，返回 false。
+给定target=20，返回false。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof
@@ -36,7 +36,7 @@ class Solution {
          */
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
           return false;
-       }
+        }
 
         int col = matrix[0].length;
         int rows = matrix.length;

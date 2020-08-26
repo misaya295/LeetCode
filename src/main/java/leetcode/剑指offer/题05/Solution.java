@@ -31,7 +31,7 @@ class Solution {
 
         /*
          *第二种方法
-         */
+//         */
         int len = s.length();
 
 
@@ -56,6 +56,25 @@ class Solution {
 
         String newstr = new String(array, 0, size);
         return newstr;
+
+
+
+
+
+//        String res="";
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            if (s.charAt(i) == ' ') {
+//                res += "%20";
+//            } else {
+//                res += s.charAt(i);
+//            }
+//        }
+//
+//        return res;
+
+
+
 
 
 
