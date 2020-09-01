@@ -1,8 +1,6 @@
-package leetcode.周赛203.第一题;
+package leetcode.周赛.周赛203.第一题;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 

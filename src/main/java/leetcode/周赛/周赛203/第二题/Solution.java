@@ -1,4 +1,4 @@
-package leetcode.周赛203.第二题;
+package leetcode.周赛.周赛203.第二题;
 
 
 

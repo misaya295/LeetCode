@@ -1,4 +1,4 @@
-package leetcode.周赛203.第三题;
+package leetcode.周赛.周赛203.第三题;
 
 import java.util.ArrayList;
 import java.util.List;
