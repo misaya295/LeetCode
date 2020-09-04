@@ -22,20 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="蓝桥杯练习 力扣机器人回原点 模拟">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Fibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Num92.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Num94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题214/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题557/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛204/第一题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛204/第三题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛204/第二题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛204/第四题/Solution.java" afterDir="false" />
+    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="Acwing蓝桥杯第一课 力扣204周赛">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num1221.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num730.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num789.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num790.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/练习/Num1029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/练习/Num116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/练习/Num1208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/练习/Num93.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/练习/Num95.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/周赛203/第一题/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛203/第一题/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/周赛203/第三题/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛203/第三题/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/周赛203/第二题/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛203/第二题/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/Fibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Num92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/Num92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/Num94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/递推与递归/Num94.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +111,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/蓝桥杯/shengsai_2018" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Num94">
-    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.Fibo" />
+  <component name="RunManager" selected="Application.Num1221">
+    <configuration name="Num116" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.递推与递归.练习.Num116" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.递推与递归.练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="蓝桥杯.练习系统.基础练习.Main8" />
+    <configuration name="Num1208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.递推与递归.练习.Num1208" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="蓝桥杯.练习系统.基础练习.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.递推与递归.练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="蓝桥杯.练习系统.基础练习.Main9" />
+    <configuration name="Num1221" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.二分与前缀和.Num1221" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="蓝桥杯.练习系统.基础练习.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.二分与前缀和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.Num92" />
+    <configuration name="Num789" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.二分与前缀和.Num789" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.二分与前缀和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.Num94" />
+    <configuration name="Num790" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.二分与前缀和.Num790" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.二分与前缀和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Num94" />
-        <item itemvalue="Application.Num92" />
-        <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.Main9" />
-        <item itemvalue="Application.Main8" />
+        <item itemvalue="Application.Num1221" />
+        <item itemvalue="Application.Num790" />
+        <item itemvalue="Application.Num789" />
+        <item itemvalue="Application.Num116" />
+        <item itemvalue="Application.Num1208" />
       </list>
     </recent_temporary>
   </component>
@@ -335,14 +335,11 @@
       <workItem from="1598771982541" duration="4856000" />
       <workItem from="1598861859560" duration="3293000" />
       <workItem from="1598926942348" duration="3337000" />
-      <workItem from="1598968842560" duration="2805000" />
-    </task>
-    <task id="LOCAL-00009" summary="搜索旋转排序数组 （暴力法和二分查找）">
-      <created>1587972200565</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1587972200565</updated>
+      <workItem from="1598968842560" duration="3035000" />
+      <workItem from="1598987061203" duration="9542000" />
+      <workItem from="1599097967098" duration="18466000" />
+      <workItem from="1599186821993" duration="6888000" />
+      <workItem from="1599202069795" duration="16509000" />
     </task>
     <task id="LOCAL-00010" summary="数组数字个数 异或">
       <created>1588047431756</created>
@@ -680,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598625223156</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Acwing蓝桥杯第一课 力扣204周赛">
+      <created>1598977101545</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1598977101546</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +704,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="机器人走迷宫 dp" />
     <MESSAGE value="二叉树 路径和 递归" />
     <MESSAGE value="跳板 数学" />
     <MESSAGE value="字符串匹配 dp" />
@@ -725,7 +728,8 @@
     <MESSAGE value="剑指offer 03最优解" />
     <MESSAGE value="剑指最优解 蓝桥杯基础训练" />
     <MESSAGE value="蓝桥杯练习 力扣机器人回原点 模拟" />
-    <option name="LAST_COMMIT_MESSAGE" value="蓝桥杯练习 力扣机器人回原点 模拟" />
+    <MESSAGE value="Acwing蓝桥杯第一课 力扣204周赛" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acwing蓝桥杯第一课 力扣204周赛" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1342" y="38" key="#Auto_Import" timestamp="1594305242558">
@@ -743,7 +747,6 @@
     <state x="-1298" y="304" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598772029790">
       <screen x="-1920" y="-157" width="1920" height="1057" />
     </state>
-    <state x="-1298" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545410837" />
     <state x="-1298" y="304" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598772029790" />
     <state x="-1351" y="25" key="CommitChangelistDialog2" timestamp="1597148818717">
       <screen x="-1920" y="25" width="1920" height="1055" />
@@ -752,10 +755,8 @@
     <state x="-1351" y="162" key="CommitChangelistDialog2/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591970220755" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894381800" />
     <state x="-1351" y="23" key="CommitChangelistDialog2/0.23.1280.729/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593745006489" />
-    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545823103" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.999@-1920.23.1920.999" timestamp="1591323218547" />
     <state x="427" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1593696372515" />
-    <state x="692" y="234" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377423077" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594386781305" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045260776" />
     <state x="-1351" y="25" key="CommitChangelistDialog2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092286496" />
@@ -788,68 +789,84 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state width="1878" height="354" key="GridCell.Tab.-1.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185255455" />
-    <state width="624" height="937" key="GridCell.Tab.0.bottom" timestamp="1598976420119">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="482" height="814" key="GridCell.Tab.0.bottom" timestamp="1599228175215">
+      <screen x="-2560" y="23" width="2560" height="1369" />
     </state>
-    <state width="624" height="937" key="GridCell.Tab.0.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976420119" />
+    <state width="624" height="937" key="GridCell.Tab.0.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580613" />
     <state width="1876" height="268" key="GridCell.Tab.0.bottom/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356438" />
+    <state width="482" height="862" key="GridCell.Tab.0.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599223986375" />
+    <state width="954" height="1297" key="GridCell.Tab.0.bottom/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472248" />
     <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1598188793401" />
+    <state width="482" height="814" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228175215" />
     <state width="1878" height="11" key="GridCell.Tab.0.bottom/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387393979" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988631" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076970" />
-    <state width="624" height="937" key="GridCell.Tab.0.center" timestamp="1598976420118">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="482" height="814" key="GridCell.Tab.0.center" timestamp="1599228175213">
+      <screen x="-2560" y="23" width="2560" height="1369" />
     </state>
-    <state width="624" height="937" key="GridCell.Tab.0.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976420118" />
+    <state width="624" height="937" key="GridCell.Tab.0.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580612" />
     <state width="1876" height="268" key="GridCell.Tab.0.center/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356427" />
+    <state width="482" height="862" key="GridCell.Tab.0.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599223986374" />
+    <state width="954" height="1297" key="GridCell.Tab.0.center/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472247" />
     <state width="1398" height="144" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1598188793400" />
+    <state width="482" height="814" key="GridCell.Tab.0.center/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228175213" />
     <state width="1878" height="11" key="GridCell.Tab.0.center/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387393974" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
-    <state width="624" height="937" key="GridCell.Tab.0.left" timestamp="1598976420117">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="482" height="814" key="GridCell.Tab.0.left" timestamp="1599228175213">
+      <screen x="-2560" y="23" width="2560" height="1369" />
     </state>
-    <state width="624" height="937" key="GridCell.Tab.0.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976420117" />
+    <state width="624" height="937" key="GridCell.Tab.0.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580611" />
     <state width="1876" height="268" key="GridCell.Tab.0.left/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356427" />
+    <state width="482" height="862" key="GridCell.Tab.0.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599223986373" />
+    <state width="954" height="1297" key="GridCell.Tab.0.left/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472246" />
     <state width="1398" height="144" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1598188793399" />
+    <state width="482" height="814" key="GridCell.Tab.0.left/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228175213" />
     <state width="1878" height="11" key="GridCell.Tab.0.left/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387393973" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988629" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076968" />
-    <state width="624" height="937" key="GridCell.Tab.0.right" timestamp="1598976420118">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="482" height="814" key="GridCell.Tab.0.right" timestamp="1599228175214">
+      <screen x="-2560" y="23" width="2560" height="1369" />
     </state>
-    <state width="624" height="937" key="GridCell.Tab.0.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976420118" />
+    <state width="624" height="937" key="GridCell.Tab.0.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580612" />
     <state width="1876" height="268" key="GridCell.Tab.0.right/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356428" />
+    <state width="482" height="862" key="GridCell.Tab.0.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599223986374" />
+    <state width="954" height="1297" key="GridCell.Tab.0.right/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472248" />
     <state width="1398" height="144" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1598188793400" />
+    <state width="482" height="814" key="GridCell.Tab.0.right/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228175214" />
     <state width="1878" height="11" key="GridCell.Tab.0.right/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387393975" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
-    <state width="1876" height="356" key="GridCell.Tab.1.bottom" timestamp="1598976041432">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1506" height="499" key="GridCell.Tab.1.bottom" timestamp="1599220631465">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1876" height="356" key="GridCell.Tab.1.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976041432" />
+    <state width="1876" height="356" key="GridCell.Tab.1.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290270" />
+    <state width="1506" height="499" key="GridCell.Tab.1.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599220631465" />
     <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1878" height="354" key="GridCell.Tab.1.bottom/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254923" />
-    <state width="1876" height="356" key="GridCell.Tab.1.center" timestamp="1598976041431">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1506" height="499" key="GridCell.Tab.1.center" timestamp="1599220631464">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1876" height="356" key="GridCell.Tab.1.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976041431" />
+    <state width="1876" height="356" key="GridCell.Tab.1.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290269" />
+    <state width="1506" height="499" key="GridCell.Tab.1.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599220631464" />
     <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1878" height="354" key="GridCell.Tab.1.center/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254921" />
-    <state width="1876" height="356" key="GridCell.Tab.1.left" timestamp="1598976041430">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1506" height="499" key="GridCell.Tab.1.left" timestamp="1599220631463">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1876" height="356" key="GridCell.Tab.1.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976041430" />
+    <state width="1876" height="356" key="GridCell.Tab.1.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290269" />
+    <state width="1506" height="499" key="GridCell.Tab.1.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599220631463" />
     <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1598188733920" />
     <state width="1878" height="354" key="GridCell.Tab.1.left/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254864" />
-    <state width="1876" height="356" key="GridCell.Tab.1.right" timestamp="1598976041431">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state width="1506" height="499" key="GridCell.Tab.1.right" timestamp="1599220631464">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1876" height="356" key="GridCell.Tab.1.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598976041431" />
+    <state width="1876" height="356" key="GridCell.Tab.1.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290270" />
+    <state width="1506" height="499" key="GridCell.Tab.1.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599220631464" />
     <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1878" height="354" key="GridCell.Tab.1.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254922" />
     <state x="-1422" y="33" key="Maven.ArtifactSearchDialog" timestamp="1598153192914">
@@ -870,7 +887,7 @@
     <state x="-1362" y="-59" width="1360" height="722" key="SettingsEditor/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598263590764" />
     <state x="-1338" y="135" width="1232" height="728" key="SettingsEditor/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387267590" />
     <state x="-1338" y="135" key="SettingsEditor/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596509565538" />
-    <state x="-1360" y="111" key="Vcs.Push.Dialog.v2" timestamp="1598625228371">
+    <state x="-1360" y="111" key="Vcs.Push.Dialog.v2" timestamp="1598977109382">
       <screen x="-1920" y="-157" width="1920" height="1057" />
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591239263710" />
@@ -878,11 +895,9 @@
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894388063" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.727/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591323227092" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.729/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593745011425" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545827287" />
     <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.808/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597415204204" />
     <state x="420" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1593696380122" />
-    <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598625228371" />
-    <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1590377429666" />
+    <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977109382" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387358730" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.720/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594045270624" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.721/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594092293351" />
@@ -891,10 +906,6 @@
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.728/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596939291111" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.775/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594305638767" />
     <state x="560" y="277" key="Vcs.Push.Dialog.v2/0.25.1920.995@0.25.1920.995" timestamp="1595433492434" />
-    <state x="-1163" y="336" key="chooseDestDirectoryDialog" timestamp="1590545384250">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state x="-1163" y="336" key="chooseDestDirectoryDialog/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590545384250" />
     <state x="-965" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597415163522">
       <screen x="-1920" y="-157" width="1920" height="1057" />
     </state>
@@ -919,10 +930,11 @@
       <screen x="-1920" y="-157" width="1920" height="1057" />
     </state>
     <state x="-1295" y="166" key="run.anything.popup/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598966512330" />
-    <state x="-1295" y="77" width="670" height="678" key="search.everywhere.popup" timestamp="1598755084383">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
+    <state x="-1727" y="337" width="894" height="909" key="search.everywhere.popup" timestamp="1599109644059">
+      <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1295" y="77" width="670" height="678" key="search.everywhere.popup/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598755084382" />
+    <state x="-1727" y="337" width="894" height="909" key="search.everywhere.popup/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599109644059" />
     <state x="-1295" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597234714295" />
   </component>
   <component name="XDebuggerManager">

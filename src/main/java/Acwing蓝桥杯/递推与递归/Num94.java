@@ -1,4 +1,4 @@
-package Acwing蓝桥杯;
+package Acwing蓝桥杯.递推与递归;
 
 
 import java.util.Scanner;
