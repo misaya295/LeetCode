@@ -1,4 +1,4 @@
-package Acwing蓝桥杯.二分与前缀和;
+package Acwing蓝桥杯.二分与前缀和.二分;
 
 
 

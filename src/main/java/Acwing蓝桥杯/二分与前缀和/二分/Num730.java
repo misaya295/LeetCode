@@ -1,5 +1,7 @@
-package Acwing蓝桥杯.二分与前缀和;
+package Acwing蓝桥杯.二分与前缀和.二分;
 
+
+import java.util.Scanner;
 
 /*
 730. 机器人跳跃问题
@@ -55,4 +57,38 @@ package Acwing蓝桥杯.二分与前缀和;
 3
  */
 public class Num730 {
+
+    static Scanner s = new Scanner(System.in);
+    static int N = s.nextInt();
+    static int[] a = new int[100010];
+
+    public static void main(String[] args) {
+        for (int i = 0; i < N; i++) {
+            a[i] = s.nextInt();
+        }
+        int l = 0;
+        int r = (int) 1e5;
+        while (l < r) {
+            int mid = l + r >> 1;
+            if (check(mid)) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        System.out.print(l);
+    }
+
+    private static boolean check(int e) {
+        for (int i = 0; i < N; i++) {
+            e = 2 * e - a[i];
+            if (e >= 1e5) {
+                return true;
+            }
+            if (e < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
