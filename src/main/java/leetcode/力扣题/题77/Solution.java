@@ -41,7 +41,6 @@ class Solution {
             return;
         }
         for (int i = start; i <= n; i++) {
-
             way[u] = i;
             dfs(u + 1, i + 1, n, m,  way);
             way[u] = 0;

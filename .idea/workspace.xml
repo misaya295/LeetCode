@@ -23,29 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="Acwing蓝桥杯 二分">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/二分/Num1221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/二分/Num1227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/前缀和/Num1230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/前缀和/Num795.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/前缀和/Num796.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/前缀和/Num99.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/数学/Num1205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/数学/Num1211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/数学/Num1216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题347/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题77/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛205/第一题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛205/第三题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛205/第二题/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/周赛/周赛205/第四题/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num1015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num1212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num1214.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num895.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/枚举_模拟_排序/枚举/Num1204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/枚举_模拟_排序/枚举/Num1210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/枚举_模拟_排序/枚举/Num1236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/枚举_模拟_排序/枚举/Num1245.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题39/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num1221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num730.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/二分/Num730.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num789.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/二分/Num789.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/Num790.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/二分与前缀和/二分/Num790.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/腾讯笔试/Main1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/腾讯笔试/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing蓝桥杯/数学与简单DP/DP/Num02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题77/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/力扣题/题77/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +86,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bisai" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -121,9 +110,35 @@
       <recent name="$PROJECT_DIR$/src/main/java/蓝桥杯/shengsai_2018" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Num02">
-    <configuration name="Num02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.数学与简单DP.DP.Num02" />
+  <component name="RunManager" selected="Application.Num1204">
+    <configuration name="Num1204" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.Num1204" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num1210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.Num1210" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Num1214" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.数学与简单DP.DP.Num1214" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num1205" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.数学与简单DP.数学.Num1205" />
+    <configuration name="Num1236" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.Num1236" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.数学与简单DP.数学.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,38 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num1211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.数学与简单DP.数学.Num1211" />
+    <configuration name="Num1245" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.Num1245" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.数学与简单DP.数学.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Num1216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing蓝桥杯.数学与简单DP.数学.Num1216" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Acwing蓝桥杯.数学与简单DP.数学.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.力扣题.题77.Solution" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.力扣题.题77.*" />
+          <option name="PATTERN" value="Acwing蓝桥杯.枚举_模拟_排序.枚举.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Num02" />
-        <item itemvalue="Application.Num1216" />
-        <item itemvalue="Application.Num1211" />
-        <item itemvalue="Application.Num1205" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Num1204" />
+        <item itemvalue="Application.Num1245" />
+        <item itemvalue="Application.Num1236" />
+        <item itemvalue="Application.Num1210" />
+        <item itemvalue="Application.Num1214" />
       </list>
     </recent_temporary>
   </component>
@@ -351,6 +340,8 @@
       <workItem from="1599272594882" duration="9797000" />
       <workItem from="1599358368543" duration="4832000" />
       <workItem from="1599364265259" duration="45512000" />
+      <workItem from="1599617108282" duration="9210000" />
+      <workItem from="1599710419829" duration="12180000" />
     </task>
     <task id="LOCAL-00011" summary="山峰数组找target 二分法">
       <created>1588136056069</created>
@@ -751,6 +742,10 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1360" y="219" key="#Project_Structure/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596184332451" />
+    <state x="-1536" y="516" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599730100582">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state x="-1536" y="516" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599730100582" />
     <state x="-1612" y="339" key="#com.intellij.ide.util.MemberChooser" timestamp="1599273165118">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
@@ -766,7 +761,6 @@
     </state>
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591239257744" />
     <state x="-1351" y="162" key="CommitChangelistDialog2/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591970220755" />
-    <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894381800" />
     <state x="-1351" y="23" key="CommitChangelistDialog2/0.23.1280.729/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593745006489" />
     <state x="-1351" y="154" key="CommitChangelistDialog2/0.23.1280.777/-1920.23.1920.999@-1920.23.1920.999" timestamp="1591323218547" />
     <state x="427" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1593696372515" />
@@ -802,12 +796,12 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state width="1878" height="354" key="GridCell.Tab.-1.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185255455" />
-    <state width="1014" height="834" key="GridCell.Tab.0.bottom" timestamp="1599576240182">
+    <state width="1014" height="834" key="GridCell.Tab.0.bottom" timestamp="1599748761990">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="624" height="937" key="GridCell.Tab.0.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580613" />
     <state width="1876" height="268" key="GridCell.Tab.0.bottom/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356438" />
-    <state width="1014" height="834" key="GridCell.Tab.0.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599576240182" />
+    <state width="1014" height="834" key="GridCell.Tab.0.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599748761990" />
     <state width="954" height="1297" key="GridCell.Tab.0.bottom/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472248" />
     <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1598188793401" />
     <state width="1506" height="499" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362033" />
@@ -815,12 +809,12 @@
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988631" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076970" />
-    <state width="1014" height="834" key="GridCell.Tab.0.center" timestamp="1599576240181">
+    <state width="1014" height="834" key="GridCell.Tab.0.center" timestamp="1599748761989">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="624" height="937" key="GridCell.Tab.0.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580612" />
     <state width="1876" height="268" key="GridCell.Tab.0.center/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356427" />
-    <state width="1014" height="834" key="GridCell.Tab.0.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599576240181" />
+    <state width="1014" height="834" key="GridCell.Tab.0.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599748761989" />
     <state width="954" height="1297" key="GridCell.Tab.0.center/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472247" />
     <state width="1398" height="144" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1598188793400" />
     <state width="1506" height="499" key="GridCell.Tab.0.center/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362032" />
@@ -828,12 +822,12 @@
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
-    <state width="1014" height="834" key="GridCell.Tab.0.left" timestamp="1599576240180">
+    <state width="1014" height="834" key="GridCell.Tab.0.left" timestamp="1599748761989">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="624" height="937" key="GridCell.Tab.0.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580611" />
     <state width="1876" height="268" key="GridCell.Tab.0.left/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356427" />
-    <state width="1014" height="834" key="GridCell.Tab.0.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599576240180" />
+    <state width="1014" height="834" key="GridCell.Tab.0.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599748761989" />
     <state width="954" height="1297" key="GridCell.Tab.0.left/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472246" />
     <state width="1398" height="144" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1598188793399" />
     <state width="1506" height="499" key="GridCell.Tab.0.left/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362031" />
@@ -841,12 +835,12 @@
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988629" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076968" />
-    <state width="1014" height="834" key="GridCell.Tab.0.right" timestamp="1599576240181">
+    <state width="1014" height="834" key="GridCell.Tab.0.right" timestamp="1599748761990">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="624" height="937" key="GridCell.Tab.0.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1599065580612" />
     <state width="1876" height="268" key="GridCell.Tab.0.right/0.23.1440.829/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1598944356428" />
-    <state width="1014" height="834" key="GridCell.Tab.0.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599576240181" />
+    <state width="1014" height="834" key="GridCell.Tab.0.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599748761990" />
     <state width="954" height="1297" key="GridCell.Tab.0.right/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599188472248" />
     <state width="1398" height="144" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1598188793400" />
     <state width="1506" height="499" key="GridCell.Tab.0.right/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362032" />
@@ -854,35 +848,35 @@
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
-    <state width="2516" height="479" key="GridCell.Tab.1.bottom" timestamp="1599547055163">
+    <state width="2516" height="479" key="GridCell.Tab.1.bottom" timestamp="1599746678451">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="1876" height="356" key="GridCell.Tab.1.bottom/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290270" />
-    <state width="2516" height="479" key="GridCell.Tab.1.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599547055163" />
+    <state width="2516" height="479" key="GridCell.Tab.1.bottom/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599746678451" />
     <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1506" height="499" key="GridCell.Tab.1.bottom/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362035" />
     <state width="1878" height="354" key="GridCell.Tab.1.bottom/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254923" />
-    <state width="2516" height="479" key="GridCell.Tab.1.center" timestamp="1599547055161">
+    <state width="2516" height="479" key="GridCell.Tab.1.center" timestamp="1599746678449">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="1876" height="356" key="GridCell.Tab.1.center/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290269" />
-    <state width="2516" height="479" key="GridCell.Tab.1.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599547055161" />
+    <state width="2516" height="479" key="GridCell.Tab.1.center/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599746678449" />
     <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1506" height="499" key="GridCell.Tab.1.center/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362034" />
     <state width="1878" height="354" key="GridCell.Tab.1.center/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254921" />
-    <state width="2516" height="479" key="GridCell.Tab.1.left" timestamp="1599547055160">
+    <state width="2516" height="479" key="GridCell.Tab.1.left" timestamp="1599746678448">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="1876" height="356" key="GridCell.Tab.1.left/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290269" />
-    <state width="2516" height="479" key="GridCell.Tab.1.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599547055160" />
+    <state width="2516" height="479" key="GridCell.Tab.1.left/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599746678448" />
     <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1598188733920" />
     <state width="1506" height="499" key="GridCell.Tab.1.left/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362034" />
     <state width="1878" height="354" key="GridCell.Tab.1.left/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254864" />
-    <state width="2516" height="479" key="GridCell.Tab.1.right" timestamp="1599547055162">
+    <state width="2516" height="479" key="GridCell.Tab.1.right" timestamp="1599746678450">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state width="1876" height="356" key="GridCell.Tab.1.right/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977290270" />
-    <state width="2516" height="479" key="GridCell.Tab.1.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599547055162" />
+    <state width="2516" height="479" key="GridCell.Tab.1.right/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599746678450" />
     <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1598188733921" />
     <state width="1506" height="499" key="GridCell.Tab.1.right/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1599228362035" />
     <state width="1878" height="354" key="GridCell.Tab.1.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185254922" />
@@ -898,11 +892,11 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1144" y="260" key="RollbackChangesDialog/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597146080524" />
-    <state x="-1816" y="154" width="1360" height="722" key="SettingsEditor" timestamp="1599467735687">
+    <state x="-1816" y="154" width="1360" height="722" key="SettingsEditor" timestamp="1599730141838">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1362" y="-59" width="1360" height="722" key="SettingsEditor/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598263590764" />
-    <state x="-1816" y="154" key="SettingsEditor/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599467735687" />
+    <state x="-1816" y="154" key="SettingsEditor/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599730141838" />
     <state x="-1338" y="135" width="1232" height="728" key="SettingsEditor/0.25.1280.719/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594387267590" />
     <state x="-1338" y="135" key="SettingsEditor/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596509565538" />
     <state x="-1813" y="370" key="Vcs.Push.Dialog.v2" timestamp="1599228338306">
@@ -910,7 +904,6 @@
     </state>
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.722/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591239263710" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.724/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591970226538" />
-    <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.726/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1590894388063" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.727/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1591323227092" />
     <state x="-1360" y="291" key="Vcs.Push.Dialog.v2/0.23.1280.729/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1593745011425" />
     <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.808/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597415204204" />
@@ -950,16 +943,16 @@
     </state>
     <state x="-1593" y="217" key="new project wizard/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596674039399" />
     <state x="-1593" y="217" key="new project wizard/0.25.1440.815/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1594374928713" />
-    <state x="-1727" y="456" key="run.anything.popup" timestamp="1599399032940">
+    <state x="-1727" y="456" key="run.anything.popup" timestamp="1599723488184">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1295" y="166" key="run.anything.popup/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598966512330" />
-    <state x="-1727" y="456" key="run.anything.popup/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599399032940" />
-    <state x="-1727" y="337" width="670" height="158" key="search.everywhere.popup" timestamp="1599574882756">
+    <state x="-1727" y="456" key="run.anything.popup/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599723488184" />
+    <state x="-1727" y="337" width="670" height="158" key="search.everywhere.popup" timestamp="1599731413192">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1295" y="77" width="670" height="678" key="search.everywhere.popup/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598755084382" />
-    <state x="-1727" y="337" width="670" height="158" key="search.everywhere.popup/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599574882756" />
+    <state x="-1727" y="337" width="670" height="158" key="search.everywhere.popup/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599731413192" />
     <state x="-1295" y="259" width="670" height="676" key="search.everywhere.popup/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597234714295" />
   </component>
   <component name="XDebuggerManager">
