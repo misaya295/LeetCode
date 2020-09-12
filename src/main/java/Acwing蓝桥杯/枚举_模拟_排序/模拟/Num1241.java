@@ -44,8 +44,13 @@ package Acwing蓝桥杯.枚举_模拟_排序.模拟;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 public class Num1241 {
+
+
     static int N = 100010;
     static int[] score = new int[N];//表示第i个店铺当前的优先级
     static int[] last = new int[N];//表示第i个店铺上一个有订单的时刻
