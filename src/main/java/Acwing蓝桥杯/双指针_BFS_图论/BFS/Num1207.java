@@ -44,5 +44,66 @@ J大臣想知道：他从某一个城市出发，中间不休息，到达另一�
 输出样例：
 135
  */
-public class Num1207 {
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Num1207{
+    static int N = 100010,M = 200010;
+    static int[] h = new int[N];
+    static int[] e = new int[M];
+    static int[] ne = new int[M];
+    static int[] w = new int[M];
+    static int[] dist = new int[N];
+    static int idx = 0;
+    static void add(int a,int b,int c)
+    {
+        e[idx] = b;
+        w[idx] = c;
+        ne[idx] = h[a];
+        h[a] = idx ++;
+    }
+    static void dfs(int u,int father,int distance)
+    {
+        dist[u] = distance;
+        for(int i = h[u];i != -1;i = ne[i])
+        {
+            int j = e[i];
+            if(j != father)
+                dfs(j,u,distance + w[i]);
+        }
+
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        Arrays.fill(h,-1);
+        for(int i = 0;i < n - 1;i ++)
+        {
+            int a = scan.nextInt();
+            int b = scan.nextInt();
+            int c = scan.nextInt();
+            add(a,b,c);
+            add(b,a,c);
+        }
+        //找到任意点x找到距离最远的点y
+        dfs(1,-1,0);
+
+        int u = 1;
+        for(int i = 2;i <= n;i ++)
+            if(dist[i] > dist[u])
+                u = i;
+        //找到离y最远的点的距离
+        dfs(u,-1,0);
+        int maxv = dist[1];
+        for(int i = 2;i <= n;i ++)
+        {
+            if(dist[i] > maxv)
+                maxv = dist[i];
+        }
+
+        System.out.println(maxv * 10 + ((long)(maxv + 1) * maxv ) / 2);
+    }
 }
+
+
+
