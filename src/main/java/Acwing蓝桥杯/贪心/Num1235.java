@@ -1,13 +1,9 @@
 package Acwing蓝桥杯.贪心;
 
-/*
-1235. 付账问题
-   题目
-   提交记录
-   讨论
-   题解
-   视频讲解
+import javax.xml.transform.dom.DOMResult;
 
+
+/*
 几个人一起出去吃饭是常有的事。
 
 但在结帐的时候，常常会出现一些争执。
@@ -52,5 +48,28 @@ p1.png
 输出样例2：
 0.7928
  */
+import java.util.Arrays;
+import java.util.Scanner;
 public class Num1235 {
+
+
+    static int N = 100010;
+    static Scanner scanner = new Scanner(System.in);
+    static int n = scanner.nextInt();
+    static double S = scanner.nextInt();
+    static int[] a = new int[n];
+
+    public static void main(String[] args) {
+        for (int i = 0; i < n; i++) { a[i] = scanner.nextInt(); }
+        Arrays.sort(a, 0, n);
+        double res = 0;
+        double avg = S / n;
+        for (int i = 0; i < n; i++) {
+            double cur = S / (n - i);
+            if (a[i] < cur) cur = a[i];
+            res += (cur - avg) * (cur - avg);
+            S -= cur;
+        }
+        System.out.printf("%.4f", Math.sqrt(res / n));
+    }
 }
