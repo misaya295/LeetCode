@@ -35,6 +35,7 @@ public class Primes {
                     st[t] = true;
                     minp[t] = primes[j];
                     if (i % primes[j] == 0) break;
+
                 }
             }
         }
