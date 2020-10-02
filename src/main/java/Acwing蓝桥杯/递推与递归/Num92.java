@@ -64,12 +64,12 @@ public class Num92 {
             return;
         }
         st[u] =1;
-        dfs(u + 1);
-        st[u] = 0;
+        dfs(u + 1); //第一个分支 选
+        st[u] = 0;  // 回溯
 
         st[u] = 2;
-        dfs(u + 1);
-        st[u] = 0;
+        dfs(u + 1); //第二个分支不选
+        st[u] = 0; //回溯
 
 
 

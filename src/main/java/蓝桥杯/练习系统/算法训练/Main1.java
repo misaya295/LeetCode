@@ -30,4 +30,8 @@ package 蓝桥杯.练习系统.算法训练;
 n<=1000 m<=10000
  */
 public class Main1 {
+
+
+
+
 }

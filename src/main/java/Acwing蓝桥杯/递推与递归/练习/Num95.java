@@ -170,7 +170,6 @@ public class Num95 {
         }
 
 
-
         if (res > 6) res = -1;
         return res;
     }

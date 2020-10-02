@@ -48,77 +48,156 @@ import java.util.Scanner;
  * 4 4
  */
 
+class PIIS {
+    int x;
+    int y;
 
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public PIIS(int x, int y) {
+
+        this.x = x;
+        this.y = y;
+
+    }
+}
 public class Num116 {
-    static int[][] arr = new int[4][4];
-    static int[][] backup = new int[4][4];
-    static int MinCount = Integer.MAX_VALUE;
-    static int POS;
-    static PrintWriter writer = new PrintWriter(System.out);
+
+    /*
+    第二版
+     */
+
+    static int N = 5;
+    static char[][] g = new char[N][N];
+    static char[][] backup = new char[N][N];
+
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = 4;
+
+        Scanner scanner = new Scanner(System.in);
+
         for (int i = 0; i < 4; i++) {
-            String str = in.next();
-            for (int j = 0; j < 4; j++) {
-                if (str.charAt(j) == '-') {
-                    arr[i][j] = 1;
-                }else arr[i][j] = 0;
-            }
+            g[i] = scanner.next().toCharArray();
         }
 
 
-        for(int k=0;k<1<<16;k++){
-            int ans = 0;
-            backup = new int[4][4];
-            for(int i=0;i<4;i++){
-                for(int j=0;j<4;j++){
-                    backup[i][j]=arr[i][j];
-                }
-            }
-            for(int j=0;j<16;j++){
-                if(((k>>j)&1)==1) {
-                    int x = j /4;
-                    int y = j % 4;
-                    ans ++;
-                    change(x,y);
-                }
-            }
-            if(check()){
-                if(MinCount>ans){
-                    MinCount = ans;
-                    POS = k;
-                }
-            }
-        }
-        writer.println(MinCount);
-        for(int k=0;k<16;k++){
-            if(((POS>>k)&1)==1){
-                int a = k/4 +1;
-                int b = k%4 +1;
-                writer.println(a+" "+b);
-            }
-        }
-        writer.flush();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
-    static void change(int x, int y) {
-        int row = x;
-        int col = y;
-        for(int i=0;i<4;i++){
-            backup[row][i]^=1;
-            backup[i][col]^=1;
-        }
-        backup[x][y]^=1;
-    }
 
-    static boolean check(){
-        for(int i=0;i<4;i++){
-            for(int j=0;j<4;j++){
-                if(backup[i][j]!=1) return false;
-            }
-        }
-        return true;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+    第一版本
+     */
+//    static int[][] arr = new int[4][4];
+//    static int[][] backup = new int[4][4];
+//    static int MinCount = Integer.MAX_VALUE;
+//    static int POS;
+//    static PrintWriter writer = new PrintWriter(System.out);
+//    public static void main(String[] args) {
+//        Scanner in = new Scanner(System.in);
+//        int n = 4;
+//        for (int i = 0; i < 4; i++) {
+//            String str = in.next();
+//            for (int j = 0; j < 4; j++) {
+//                if (str.charAt(j) == '-') {
+//                    arr[i][j] = 1;
+//                }else arr[i][j] = 0;
+//            }
+//        }
+//
+//
+//        for(int k=0;k<1<<16;k++){
+//            int ans = 0;
+//            backup = new int[4][4];
+//            for(int i=0;i<4;i++){
+//                for(int j=0;j<4;j++){
+//                    backup[i][j]=arr[i][j];
+//                }
+//            }
+//            for(int j=0;j<16;j++){
+//                if(((k>>j)&1)==1) {
+//                    int x = j /4;
+//                    int y = j % 4;
+//                    ans ++;
+//                    change(x,y);
+//                }
+//            }
+//            if(check()){
+//                if(MinCount>ans){
+//                    MinCount = ans;
+//                    POS = k;
+//                }
+//            }
+//        }
+//        writer.println(MinCount);
+//        for(int k=0;k<16;k++){
+//            if(((POS>>k)&1)==1){
+//                int a = k/4 +1;
+//                int b = k%4 +1;
+//                writer.println(a+" "+b);
+//            }
+//        }
+//        writer.flush();
+//    }
+//
+//    static void change(int x, int y) {
+//        int row = x;
+//        int col = y;
+//        for(int i=0;i<4;i++){
+//            backup[row][i]^=1;
+//            backup[i][col]^=1;
+//        }
+//        backup[x][y]^=1;
+//    }
+//
+//    static boolean check(){
+//        for(int i=0;i<4;i++){
+//            for(int j=0;j<4;j++){
+//                if(backup[i][j]!=1) return false;
+//            }
+//        }
+//        return true;
+//    }
 }
 

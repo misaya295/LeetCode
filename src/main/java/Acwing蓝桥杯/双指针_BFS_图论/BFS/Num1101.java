@@ -53,87 +53,180 @@ oop!
 
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 
 public class Num1101 {
-    static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    //左下右上
+    static Scanner scanner = new Scanner(System.in);
+
+    static int N =210;
+    static int [][] dist = new int[N][N];
+    static char[][] chars;
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, -1, 0, 1};
-    static int N = 210;
-    static int[][] dist = new int[N][N];
-    static char[][] chars;
 
-    static class PII {
+
+    static class PaII{
+
         int x;
         int y;
 
-        public PII(int x, int y) {
+
+        public PaII(int x, int y) {
             this.x = x;
             this.y = y;
         }
     }
-
-    static PII start, end;
-    static int R, C;
-
-    public static void main(String[] args) throws IOException {
-        int T = Integer.valueOf(in.readLine().trim());
+    static PaII start,end;
+    static int R,C;
+    public static void main(String[] args) {
+        int T = scanner.nextInt();
         while (T-- > 0) {
-            String[] s = in.readLine().split(" ");
-            R = Integer.valueOf(s[0]);
-            C = Integer.valueOf(s[1]);
+            R = scanner.nextInt();
+            C = scanner.nextInt();
             chars = new char[R][C];
-            for (int i = 0; i < R; i++) {
-                chars[i] = in.readLine().toCharArray();
+            for (int i=0;i < R;i++) {
+                chars[i] = scanner.next().toCharArray();
             }
+
             for (int i = 0; i < R; i++) {
                 for (int j = 0; j < C; j++) {
-                    if (chars[i][j] == 'S') {
-                        start = new PII(i, j);
-                    }
-                    if (chars[i][j] == 'E') {
-                        end = new PII(i, j);
-                    }
+                    if (chars[i][j] == 'S') start = new PaII(i, j);
+                    if (chars[i][j] == 'E') end = new PaII(i, j);
+
                 }
             }
-            //bfs搜索
             int bfs = bfs(start, end);
-            if (bfs == -1) System.out.println("oop!");
-            else System.out.println(bfs);
+            if (bfs == -1) {
+                System.out.println("oop!");
+            } else {
+                System.out.println(bfs);
+            }
+
+
+
+
+
+
+
         }
+
+
+
     }
 
-    static int bfs(PII start, PII end) {
-        //初始化距离数组
+    private static int bfs(PaII start, PaII end) {
+
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
                 dist[i][j] = -1;
             }
         }
-        Queue<PII> q = new LinkedList<PII>();
+        Queue<PaII> q = new LinkedList<>();
         q.add(start);
         dist[start.x][start.y] = 0;
+
         while (q.size() != 0) {
             //出队
-            PII head = q.poll();
+            PaII head = q.poll();
             for (int i = 0; i < 4; i++) {
                 int x = head.x + dx[i];
                 int y = head.y + dy[i];
-                //判断是否出界
-                if (x < 0 || x >= R || y < 0 || y >= C) continue;
+                if (x < 0 || x>= R || y < 0|| y >= C) continue;
                 if (chars[x][y] == '#') continue;
-                if (dist[x][y] != -1) continue;
+                if (dist[x][y] != -1 ) continue;
                 dist[x][y] = dist[head.x][head.y] + 1;
                 if (x == end.x && y == end.y) return dist[x][y];
-                q.add(new PII(x, y));
+                q.add(new PaII(x, y));
+
             }
+
         }
+
         return -1;
+
+
+
+
     }
+
+
+//    static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+//    //左下右上
+//    static int[] dx = {-1, 0, 1, 0};
+//    static int[] dy = {0, -1, 0, 1};
+//    static int N = 210;
+//    static int[][] dist = new int[N][N];
+//    static char[][] chars;
+//
+//    static class PII {
+//        int x;
+//        int y;
+//
+//        public PII(int x, int y) {
+//            this.x = x;
+//            this.y = y;
+//        }
+//    }
+//
+//    static PII start, end;
+//    static int R, C;
+//
+//    public static void main(String[] args) throws IOException {
+//        int T = Integer.valueOf(in.readLine().trim());
+//        while (T-- > 0) {
+//            String[] s = in.readLine().split(" ");
+//            R = Integer.valueOf(s[0]);
+//            C = Integer.valueOf(s[1]);
+//            chars = new char[R][C];
+//            for (int i = 0; i < R; i++) {
+//                chars[i] = in.readLine().toCharArray();
+//            }
+//            for (int i = 0; i < R; i++) {
+//                for (int j = 0; j < C; j++) {
+//                    if (chars[i][j] == 'S') {
+//                        start = new PII(i, j);
+//                    }
+//                    if (chars[i][j] == 'E') {
+//                        end = new PII(i, j);
+//                    }
+//                }
+//            }
+//            //bfs搜索
+//            int bfs = bfs(start, end);
+//            if (bfs == -1) System.out.println("oop!");
+//            else System.out.println(bfs);
+//        }
+//    }
+//
+//    static int bfs(PII start, PII end) {
+//        //初始化距离数组
+//        for (int i = 0; i < R; i++) {
+//            for (int j = 0; j < C; j++) {
+//                dist[i][j] = -1;
+//            }
+//        }
+//        Queue<PII> q = new LinkedList<PII>();
+//        q.add(start);
+//        dist[start.x][start.y] = 0;
+//        while (q.size() != 0) {
+//            //出队
+//            PII head = q.poll();
+//            for (int i = 0; i < 4; i++) {
+//                int x = head.x + dx[i];
+//                int y = head.y + dy[i];
+//                //判断是否出界
+//                if (x < 0 || x >= R || y < 0 || y >= C) continue;
+//                if (chars[x][y] == '#') continue;
+//                if (dist[x][y] != -1) continue;
+//                dist[x][y] = dist[head.x][head.y] + 1;
+//                if (x == end.x && y == end.y) return dist[x][y];
+//                q.add(new PII(x, y));
+//            }
+//        }
+//        return -1;
+//    }
 }
 
