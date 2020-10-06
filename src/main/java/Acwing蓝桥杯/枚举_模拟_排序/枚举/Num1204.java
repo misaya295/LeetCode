@@ -44,29 +44,33 @@ package Acwing蓝桥杯.枚举_模拟_排序.枚举;
 7 9
  */
 
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Num1204 {
-    private static List<Integer> ids = new ArrayList<Integer>();
-    public static void main(String[] args) {
+
+
+
+
+
+    static List<Integer> ids = new ArrayList<>();
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         sc.nextLine();
         int i = 0;
         while (sc.hasNextLine()) {
             String[] temp = sc.nextLine().trim().replaceAll("\\s+", ",").split(",");
-            for (String id : temp) {
+            for (String id: temp) {
                 ids.add(Integer.parseInt(id));
             }
-            if (++i >= N)
+            if (++i>= N) {
                 break;
+            }
         }
         ids.sort(null);
-        int m = 0, n = 0;
+        int m = 0;int n = 0;
         for (int j = 1; j < ids.size() - 1; j++) {
             int front = ids.get(j);
             int rear = ids.get(j + 1);
@@ -77,7 +81,42 @@ public class Num1204 {
             if (m != 0 && n != 0)
                 break;
         }
+
+
         System.out.println(m + " " + n);
         sc.close();
+
     }
 }
+
+
+
+    //    private static List<Integer> ids = new ArrayList<Integer>();
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int N = sc.nextInt();
+//        sc.nextLine();
+//        int i = 0;
+//        while (sc.hasNextLine()) {
+//            String[] temp = sc.nextLine().trim().replaceAll("\\s+", ",").split(",");
+//            for (String id : temp) {
+//                ids.add(Integer.parseInt(id));
+//            }
+//            if (++i >= N)
+//                break;
+//        }
+//        ids.sort(null);
+//        int m = 0, n = 0;
+//        for (int j = 1; j < ids.size() - 1; j++) {
+//            int front = ids.get(j);
+//            int rear = ids.get(j + 1);
+//            if (front == rear)
+//                n = front;
+//            else if (front != rear - 1)
+//                m = rear - 1;
+//            if (m != 0 && n != 0)
+//                break;
+//        }
+//        System.out.println(m + " " + n);
+//        sc.close();
+//    }

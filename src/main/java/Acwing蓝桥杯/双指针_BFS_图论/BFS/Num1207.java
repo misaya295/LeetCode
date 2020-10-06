@@ -44,65 +44,138 @@ J大臣想知道：他从某一个城市出发，中间不休息，到达另一�
 输出样例：
 135
  */
-import java.util.Arrays;
-import java.util.Scanner;
+
+import java.util.*;
 
 public class Num1207{
-    static int N = 100010,M = 200010;
-    static int[] h = new int[N];
-    static int[] e = new int[M];
-    static int[] ne = new int[M];
-    static int[] w = new int[M];
-    static int[] dist = new int[N];
-    static int idx = 0;
-    static void add(int a,int b,int c)
+
+    static int N=100010;
+    static class Node
     {
-        e[idx] = b;
-        w[idx] = c;
-        ne[idx] = h[a];
-        h[a] = idx ++;
+        int id;
+        int w;
+
+        public Node(int id, int w) {
+            this.id = id;
+            this.w = w;
+        }
     }
-    static void dfs(int u,int father,int distance)
+
+    static ArrayList[] map = new ArrayList[N];
+    static int[] dist = new int[N];
+
+
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        for (int i = 0; i < N; i++) {
+            map[i] = new ArrayList<Node>();
+        }
+
+        int n = sc.nextInt();
+
+        while (n-- > 1) {
+
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int dis = sc.nextInt();
+//            System.out.println(a+" "+b+" "+dis);
+            //领接表
+            map[a].add(new Node(b, dis));
+            map[b].add(new Node(a, dis));
+
+        }
+        dfs(1, -1, 0);
+
+        int u1 = -1;
+        int max1 = Integer.MIN_VALUE;
+        for(int i=1;i<N;i++) {
+            if(dist[i]>max1){
+                max1 = dist[i];
+                u1 = i;
+            }
+        }
+        dfs(u1,-1,0);
+        long max2 = Integer.MIN_VALUE;
+        for(int i2=1;i2<N;i2++) {
+            if(dist[i2]>max2){
+                max2 = dist[i2];
+            }
+        }
+        System.out.println((21+max2)*max2/2);
+
+
+
+    }
+
+    private static void dfs(int u, int parent, int distance)
     {
         dist[u] = distance;
-        for(int i = h[u];i != -1;i = ne[i])
-        {
-            int j = e[i];
-            if(j != father)
-                dfs(j,u,distance + w[i]);
-        }
+        for (Object n : map[u]) {
 
+            Node nn = (Node) n;
+            if (nn.id != parent) dfs(nn.id, u, distance + nn.w);
+        }
     }
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        Arrays.fill(h,-1);
-        for(int i = 0;i < n - 1;i ++)
-        {
-            int a = scan.nextInt();
-            int b = scan.nextInt();
-            int c = scan.nextInt();
-            add(a,b,c);
-            add(b,a,c);
-        }
-        //找到任意点x找到距离最远的点y
-        dfs(1,-1,0);
 
-        int u = 1;
-        for(int i = 2;i <= n;i ++)
-            if(dist[i] > dist[u])
-                u = i;
-        //找到离y最远的点的距离
-        dfs(u,-1,0);
-        int maxv = dist[1];
-        for(int i = 2;i <= n;i ++)
-        {
-            if(dist[i] > maxv)
-                maxv = dist[i];
-        }
 
-        System.out.println(maxv * 10 + ((long)(maxv + 1) * maxv ) / 2);
-    }
+    //    static int N = 100010,M = 200010;
+//    static int[] h = new int[N];
+//    static int[] e = new int[M];
+//    static int[] ne = new int[M];
+//    static int[] w = new int[M];
+//    static int[] dist = new int[N];
+//    static int idx = 0;
+//    static void add(int a,int b,int c)
+//    {
+//        e[idx] = b;
+//        w[idx] = c;
+//        ne[idx] = h[a];
+//        h[a] = idx ++;
+//    }
+//    static void dfs(int u,int father,int distance)
+//    {
+//        dist[u] = distance;
+//        for(int i = h[u];i != -1;i = ne[i])
+//        {
+//            int j = e[i];
+//            if(j != father)
+//                dfs(j,u,distance + w[i]);
+//        }
+//
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = scan.nextInt();
+//        Arrays.fill(h,-1);
+//        for(int i = 0;i < n - 1;i ++)
+//        {
+//            int a = scan.nextInt();
+//            int b = scan.nextInt();
+//            int c = scan.nextInt();
+//            add(a,b,c);
+//            add(b,a,c);
+//        }
+//        //找到任意点x找到距离最远的点y
+//        dfs(1,-1,0);
+//
+//        int u = 1;
+//        for(int i = 2;i <= n;i ++)
+//            if(dist[i] > dist[u])
+//                u = i;
+//        //找到离y最远的点的距离
+//        dfs(u,-1,0);
+//        int maxv = dist[1];
+//        for(int i = 2;i <= n;i ++)
+//        {
+//            if(dist[i] > maxv)
+//                maxv = dist[i];
+//        }
+//
+//        System.out.println(maxv * 10 + ((long)(maxv + 1) * maxv ) / 2);
+//    }
 }
 
 
