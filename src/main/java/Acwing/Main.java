@@ -19,7 +19,6 @@ class Main{
 
     }
 
-
     static void dfs_a(int u,int a){
         if(a >= n || u >9) return;
         if(a > 0) dfs_c(u,a,0);
