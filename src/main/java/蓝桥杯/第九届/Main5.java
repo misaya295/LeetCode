@@ -1,4 +1,6 @@
-package 蓝桥杯.shengsai_2018;
+package 蓝桥杯.第九届;
+
+import java.util.Arrays;
 
 /**
  * 以下代码可以从数组a[]中找出第k小的元素。
@@ -8,4 +10,11 @@ package 蓝桥杯.shengsai_2018;
  * 请仔细阅读分析源码，填写划线部分缺失的内容。
  */
 public class Main5 {
+
+    public static void main(String[] args) {
+
+    }
+
+
+
 }

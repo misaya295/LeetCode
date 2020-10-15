@@ -1,7 +1,6 @@
-package 蓝桥杯.shengsai_2019;
+package 蓝桥杯.第十届;
 
 
-import javafx.util.Pair;
 
 import java.util.HashMap;
 import java.util.Scanner;

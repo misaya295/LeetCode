@@ -1,4 +1,6 @@
-package 蓝桥杯.shengsai_2018;
+package 蓝桥杯.第九届;
+
+import java.util.Scanner;
 
 public class Main2 {
 
@@ -9,9 +11,21 @@ public class Main2 {
      * 我们以某个小方格的一个顶点为圆心画一个半径为1000的圆。
      * 你能计算出这个圆里有多少个完整的小方格吗？
      * 注意：需要提交的是一个整数，不要填写任何多余内容。
+     *
+     * 3992004
      */
 
     public static void main(String[] args) {
+
+//        Scanner sc = new Scanner(System.in);
+//
+//        int n = sc.nextInt();
+//
+//        int res = (2 * n - 2) * (2 * n - 2);
+//        System.out.println(res);
+
+
+
         int r = 1000, res = 0;
         for (int i = 1; i <= r; i++) {
             for (int j = 1; j <= r; j++) {
@@ -22,6 +36,7 @@ public class Main2 {
         }
 
         System.out.println(res * 4);
+
 
     }
 }

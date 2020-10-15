@@ -1,7 +1,8 @@
-package 蓝桥杯.shengsai_2019;
+package 蓝桥杯.第十届;
 
 
-import sun.misc.Queue;
+
+
 
 /**
  * 【问题描述】
@@ -9,7 +10,7 @@ import sun.misc.Queue;
  * 40 中这样的数包括 1、2、9、10 至 32、39 和 40，共 28 个，他们的和是 574。
  * 请问，在 1 到 n 中，所有这样的数的和是多少？
  * 【输入格式】
- * 输入一行包含两个整数 n。
+ * 输入一行包含一个整数 n。
  * 【输出格式】
  * 输出一行，包含一个整数，表示满足条件的数的和。
  * 【样例输入】
@@ -22,32 +23,33 @@ import sun.misc.Queue;
  * 对于 80% 的评测用例，1 ≤ n ≤ 1000。
  * 对于所有评测用例，1 ≤ n ≤ 10000。
  */
+import java.util.Scanner;
 public class Main6 {
 
 
+    static int n;
+
     public static void main(String[] args) {
-        int n=40;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
         int res = 0;
-        for (int i = 1; i <= n; i++) {
+
+        for(int i =1;i<= n;i++){
             if (check(i)) {
-                res+=i;
+                res += i;
             }
         }
         System.out.println(res);
-
     }
-
-    private static boolean check(int i) {
-        while (i > 0) {
-            int t = i%10;
-            if (t == 1 || t == 0 || t == 2 || t == 9) {
-                return true;
-            }
-            i /= 10;
-
-
+    static boolean check(int x){
+        boolean flag = false;
+        while (x > 0) {
+            int t = x%10;
+            if (t== 2|| t==0|| t==1||t==9) flag = true;
+            x /= 10;
         }
-        return false;
+        return flag;
+
     }
 
 

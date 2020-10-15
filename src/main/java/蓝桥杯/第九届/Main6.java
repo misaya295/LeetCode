@@ -1,8 +1,6 @@
-package 蓝桥杯.shengsai_2018;
+package 蓝桥杯.第九届;
 
 
-import java.util.Arrays;
-import java.util.Scanner;
 
 /**
  * 6、标题：递增三元组
@@ -50,60 +48,74 @@ import java.util.Scanner;
  * 这样的复杂度O(n^2logn)还是太高，可以再优化一次，把A和B，B和C分开统计，现在在B中二分查找比A[i]大的个数，
  * 同理在C中二分查找比B[i]大的个数,最后所有的这2个数相乘的累加就是ans,复杂度O(nlogn)
  */
-public class Main6 {
+
+import java.util.Arrays;
+import java.util.Scanner;
+public class Main6{
 
     public static void main(String[] args) {
 
+        int N=100010;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] a= new int[N];
+        int[] b= new int[N];
+        int[] c= new int[N];
+        for (int i = 1; i <= n; i++) a[i] = sc.nextInt();
+        for (int i = 1; i <= n; i++) b[i] = sc.nextInt();
+        for (int i = 1; i <= n; i++) c[i] = sc.nextInt();
 
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] A = new int[n];
-        int[] C = new int[n];
-        int[] B = new int[n];
+        Arrays.sort(a,0,n+1);
+        Arrays.sort(b,0,n+1);
+        Arrays.sort(c,0,n+1);
 
+        long res = 0;
+        for(int i =1;i <= n;i++){
 
-        for (int i = 0; i < n; i++) {
-            A[i] = in.nextInt();
-        }
-        for (int i = 0; i < n; i++) {
-            B[i] = in.nextInt();
-        }
-        for (int i = 0; i < n; i++) {
-            C[i] = in.nextInt();
-        }
+            int la =0;
+            int ra = n+1;
+            while (la < ra) {
 
-        Arrays.sort(A);
-        Arrays.sort(B);
-        Arrays.sort(C);
+                int mid = la + ra >> 1;
 
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; i < n; j++) {
-                if (A[i] < B[j]) {
-                    int l =0,r=n-1;
+                if (a[mid] >= b[i]) {
 
-                    while (l <= r) {
+                    ra = mid;
 
-                        int m = (l + r) / 2;
-                        if (C[m] > B[j]) {
-                            r = m - 1;
-                        }else{
-                            l = m + 1;
-                        }
-
-                        ans += n - l;
-                    }
-
+                } else {
+                    la= mid + 1;
                 }
+
             }
+
+            int lb=0;
+            int rb=n+1;
+            while (lb < rb) {
+                int mid = lb + rb + 1 >> 1;
+                if (c[mid] <= b[i]) {
+                    lb = mid;
+
+                } else {
+                    rb = mid - 1;
+                }
+
+            }
+            if(la == 0 || lb == n + 1) continue;
+            res += (long) (la - 1) * (n - lb);
+
+
         }
 
+        System.out.println(res);
 
-        System.out.println(ans);
+
+
+
+
+
+
 
     }
-
-
 
 
 }
