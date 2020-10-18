@@ -28,39 +28,26 @@ import java.util.Scanner;
 对于所有评测用例，1 ≤ n ≤ 1000000。
  */
 public class Main6 {
-
-    static long mod =123456789;
-
+   static  long n;
+   static  long a;
+   static  long mod=123456789;
     public static void main(String[] args) {
-
-
         Scanner sc = new Scanner(System.in);
-        long n = sc.nextLong();
-        long res = 0;
-        for (int i = 1; i <= n; i++) {
-            res = (res+ qmi(i, 8)) % mod;
-        }
-
-        System.out.println(res);
-
-
+        n = sc.nextLong();
+        long ans=0;
+        for (int i = 1; i <= n; i++) ans = (ans +  qmi(i, 8)) % mod;
+        System.out.println(ans);
     }
 
-    static long qmi(long a, int b) {
-
-        long ans = 1;
+    static long qmi(long a, long b) {
+        long res=1;
         while (b > 0) {
-         if ((b & 1) ==1) ans = (ans * a) % mod;
+            if((b & 1) == 1) res = (res * a) % mod;
             a = (a * a) % mod;
-            b >>=1;
+            b >>= 1;
         }
-
-        return ans;
-
-
-
+        return res;
     }
-
 
 
 
