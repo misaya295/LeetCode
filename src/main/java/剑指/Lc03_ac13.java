@@ -16,7 +16,7 @@ package 剑指;
 返回 2 或 3。
  */
 
-public class Num13 {
+public class Lc03_ac13 {
 
 
     public static void main(String[] args) {
