@@ -60,119 +60,140 @@ package 蓝桥杯.国赛;
 16
  */
 import java.util.*;
-
 public class Acwing2548 {
-
-    static int N =310;
-    static int n;
-    static int k;
     static class PII{
+
         int x;
         int y;
         int z;
-        public PII(int x, int y,int z) {
+
+        public PII(int x, int y, int z) {
             this.x = x;
             this.y = y;
             this.z = z;
         }
     }
 
-    static int INF = 0x3f3f3f3f;
-
+    static int N =310;
     static int M = N * N * 3;
+    static int INF = 0x3f3f3f3f;
+    static int n, k;
     static char[][] g = new char[N][N];
-    static int[][][] d = new int[N][N][3];
-    static PII[] q = new PII[M];
-    static boolean[][][] st = new boolean[N][N][3];
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        k = sc.nextInt();
-        for (int i = 1; i <= n; i++) g[i] = sc.next().toCharArray();
-
-        System.out.println(bfs());
 
 
-
-    }
-
-    public static boolean check(int x, int y, int z) {
+    private static boolean check(int x, int y, int z) {
 
         for (int i = x - z; i <= x + z; i++) {
+
             if(i < 1 || i> n) return false;
             for (int j = y - z; j <= y + z; j++) {
-                if(j < 1 || j> n) return false;
-                if(g[i][j] == '*') return false;
+                if(j < 1 || j >n) return false;
+                if(g[i][j]== '*') return false;
+
             }
+
         }
+
         return true;
     }
 
-    private static int bfs() {
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                for (int k = 1; k <= 3; k++) {
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, -1, 0, 1};
+    static int[][][] d = new int[N][N][3];
+    static boolean[][][] st = new boolean[N][N][3];
+    static PII[] q = new PII[M];
+
+
+
+
+
+    private static int spfa() {
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = 0; j < n; j++) {
+                for (int k = 0; k < 3; k++) {
                     d[i][j][k] = -1;
                 }
             }
+
         }
-        int hh = 0, tt = 0;
 
-        int[] dx = {-1, 0, 1, 0};
-        int[] dy = {0, -1, 0, 1};
-
-
+        int hh=0;
+        int tt = 0;
         d[3][3][2] = 0;
         q[tt++] = new PII(3, 3, 2);
         st[3][3][2] = true;
 
         while (hh != tt) {
-
-            PII t = q[hh++];
-            if(hh == N * N * 3) hh =0;
-
-            int x = t.x, y = t.y, z = t.z;
-
+            PII u = q[hh++];
+            if(hh == M) hh = 0;
+            int x = u.x;
+            int y = u.y;
+            int z = u.z;
             st[x][y][z] = false;
-            for (int i = 0; i < 4; i++) {
-
+            for(int i=0;i < 4;i++){
                 int a = x + dx[i];
                 int b = y + dy[i];
                 int c = z;
                 int dist = d[x][y][z] + 1;
-                while (c >= 0) {
 
+                while (c >= 0) {
                     dist = Math.max(dist, (2 - c) * k + 1);
                     if (check(a, b, c)) {
-                        if (dist < d[a][b][c]) {
+                        if (dist < d[a][b][c])
+                        {
                             d[a][b][c] = dist;
                             if (!st[a][b][c]) {
                                 q[tt++] = new PII(a, b, c);
-                                if (tt== M) tt = 0;
+                                if(tt == M) tt = 0;
                                 st[a][b][c] = true;
-
                             }
                         }
-
                     }
-
                     c--;
+
                 }
+
             }
 
-        }
 
+        }
         int res = INF;
-        for (int i = 0; i < 3; i++) res = Math.min(res, d[n - 2][n - 2][i]);
+        for(int i = 0; i < 3; i ++)  res = Math.min(res, d[n - 2][n - 2][i]);
         return res;
 
+    }
 
 
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        k = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            String s = sc.next();
+            for (int j = 1; j <= s.length(); j++) {
+                int k =0;
+                while (k < n) {
+
+                    g[i][j] = s.charAt(k);
+                    k++;
+                }
+
+                }
+
+
+
+            }
+
+        System.out.println(spfa());
+
+        }
 
 
     }
 
 
-}
+

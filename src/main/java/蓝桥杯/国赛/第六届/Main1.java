@@ -23,41 +23,74 @@ X老板脾气古怪，他们公司的电话分机号都是3位数，老板规定
 public class Main1 {
 
 
-    static int N = 30;
-    static int n , m;
-    static int[] w = new int[N];
-
-    static int total = 0;
+    /*
+    暴力
+     */
 
     public static void main(String[] args) {
+        int res = 0;
+        for (int i = 0; i < 10; i++) {
 
-        n = 9;
-        m = 3;
+            for (int j = 0; j < 10; j++) {
+                for (int k = 0; k < 10; k++) {
 
-        dfs(1, 0);
-        System.out.println(total);
-    }
+                    if (i < j && j < k) {
+                        res++;
 
-    static void dfs(int u, int start) {
+                    }
 
-        if(u + n - start < m) return;
 
-        if (u == m + 1) {
-            if (w[1] < w[2] && w[2] < w[3]) total++;
-            for (int i = 1; i <= m; i++) {
-                System.out.print(w[i] + " ");
+                }
             }
-            System.out.println();
-            return;
+
         }
 
-        for (int i = 0; i <= n; i++) {
-            w[u] = i;
-            dfs(u + 1, i + 1);
-        }
-
-
+        System.out.println(res);
     }
+
+
+
+
+
+    /*
+    dfs
+     */
+//
+//    static int N = 30;
+//    static int n , m;
+//    static int[] w = new int[N];
+//
+//    static int total = 0;
+//
+//    public static void main(String[] args) {
+//
+//        n = 9;
+//        m = 3;
+//
+//        dfs(1, 0);
+//        System.out.println(total);
+//    }
+//
+//    static void dfs(int u, int start) {
+//
+//        if(u + n - start < m) return;
+//
+//        if (u == m + 1) {
+//            if (w[1] < w[2] && w[2] < w[3]) total++;
+//            for (int i = 1; i <= m; i++) {
+//                System.out.print(w[i] + " ");
+//            }
+//            System.out.println();
+//            return;
+//        }
+//
+//        for (int i = 0; i <= n; i++) {
+//            w[u] = i;
+//            dfs(u + 1, i + 1);
+//        }
+//
+//
+//    }
 
 
 

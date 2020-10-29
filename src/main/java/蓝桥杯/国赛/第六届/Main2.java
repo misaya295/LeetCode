@@ -1,8 +1,9 @@
 package 蓝桥杯.国赛.第六届;
 
-public class Main2 {
 
-    /*
+import java.util.Scanner;
+
+/*
 
 标题：五星填数
 
@@ -15,8 +16,16 @@ public class Main2 {
 注意：旋转或镜像后相同的算同一种填法。
 
 请提交表示方案数目的整数，不要填写任何其它内容。
-     */
+ */
+public class Main2 {
+
+
     public static void main(String[] args) {
+
+
+        int[] a = {1, 2, 3, 4, 5, 6, 8, 9, 10, 12};
+
+
 
 
 
