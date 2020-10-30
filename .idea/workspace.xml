@@ -22,18 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="随便提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1015.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1027.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1027.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwingt1015_p.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing算法基础/第一讲/快排/Num785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing算法基础/第一讲/快排/Num786.java" afterDir="false" />
+    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="Acwing提高课 数字三角形模型">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing1014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing1016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing1017.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing482.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/最长上升子序列模型/Acwing895.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/Acwing2548.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/Acwing2548.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/第六届/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/第六届/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/第六届/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/蓝桥杯/国赛/第六届/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1015.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/数字三角形模型/Acwing1015.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/数字三角形模型/Acwing1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1027.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/数字三角形模型/Acwing1027.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwing1027.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/数字三角形模型/Acwing1027.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Acwing提高课/数字三角形模型/Acwingt1015_p.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Acwing提高课/DP/数字三角形模型/Acwingt1015_p.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +115,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/蓝桥杯/shengsai_2018" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Acwing1027">
-    <configuration name="Acwing1015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing提高课.Acwing1015" />
+  <component name="RunManager" selected="Application.Acwing1016">
+    <configuration name="Acwing1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.最长上升子序列模型.Acwing1012" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing提高课.*" />
+          <option name="PATTERN" value="Acwing提高课.DP.最长上升子序列模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +129,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Acwing1018 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing提高课.数字三角形模型.Acwing1018" />
+    <configuration name="Acwing1014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.最长上升子序列模型.Acwing1014" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing提高课.数字三角形模型.*" />
+          <option name="PATTERN" value="Acwing提高课.DP.最长上升子序列模型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Acwing1016" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.最长上升子序列模型.Acwing1016" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acwing提高课.DP.最长上升子序列模型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Acwing1017" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.最长上升子序列模型.Acwing1017" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Acwing提高课.DP.最长上升子序列模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +169,11 @@
       </method>
     </configuration>
     <configuration name="Acwing1018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing提高课.Acwing1018" />
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.数字三角形模型.Acwing1018" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing提高课.*" />
+          <option name="PATTERN" value="Acwing提高课.DP.数字三角形模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,52 +181,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Acwing1027" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Acwing提高课.数字三角形模型.Acwing1027" />
+    <configuration name="Acwing482" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Acwing提高课.DP.最长上升子序列模型.Acwing482" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Acwing提高课.数字三角形模型.*" />
+          <option name="PATTERN" value="Acwing提高课.DP.最长上升子序列模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Acwing2548" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="蓝桥杯.国赛.Acwing2548" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="蓝桥杯.国赛.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Acwing1027" />
-        <item itemvalue="Application.Acwing1018 (1)" />
-        <item itemvalue="Application.Acwing1018" />
-        <item itemvalue="Application.Acwing1015" />
-        <item itemvalue="Application.Acwing2548" />
+        <item itemvalue="Application.Acwing1016" />
+        <item itemvalue="Application.Acwing1012" />
+        <item itemvalue="Application.Acwing482" />
+        <item itemvalue="Application.Acwing1014" />
+        <item itemvalue="Application.Acwing1017" />
       </list>
     </recent_temporary>
   </component>
@@ -400,14 +401,9 @@
       <workItem from="1603789077778" duration="6452000" />
       <workItem from="1603853950125" duration="17455000" />
       <workItem from="1603961272912" duration="5430000" />
-      <workItem from="1603979498892" duration="2427000" />
-    </task>
-    <task id="LOCAL-00027" summary="对称二叉树 递归">
-      <created>1590894382148</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1590894382148</updated>
+      <workItem from="1603979498892" duration="5121000" />
+      <workItem from="1604029140750" duration="6003000" />
+      <workItem from="1604066943628" duration="119000" />
     </task>
     <task id="LOCAL-00028" summary="数组乘积">
       <created>1591239258142</created>
@@ -745,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603867040226</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Acwing提高课 数字三角形模型">
+      <created>1603987838834</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1603987838834</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +768,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="蓝桥杯2018" />
     <MESSAGE value="二叉树最小深度" />
     <MESSAGE value="周赛203" />
     <MESSAGE value="字符串匹配 下次一定用KMP" />
@@ -790,7 +792,8 @@
     <MESSAGE value="剑指offer 01" />
     <MESSAGE value="剑指offer 1～10" />
     <MESSAGE value="随便提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="随便提交" />
+    <MESSAGE value="Acwing提高课 数字三角形模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acwing提高课 数字三角形模型" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1813" y="284" key="#Project_Structure" timestamp="1602322580063">
@@ -806,20 +809,20 @@
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1536" y="516" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1599730100582" />
-    <state x="2388" y="339" key="#com.intellij.ide.util.MemberChooser" timestamp="1603789363688">
+    <state x="2388" y="339" key="#com.intellij.ide.util.MemberChooser" timestamp="1604045526256">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="-1209" y="79" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597806901284" />
     <state x="-1612" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602769986278" />
-    <state x="2388" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603789363688" />
+    <state x="2388" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604045526256" />
     <state x="-1612" y="328" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1600173487432" />
-    <state x="2269" y="641" width="781" height="137" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603789108097">
+    <state x="2269" y="641" width="781" height="137" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604022960048">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="-1298" y="304" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598772029790" />
     <state x="-1731" y="641" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602679950897" />
     <state x="0" y="641" width="781" height="137" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-5120.23.2560.1417" timestamp="1601607695438" />
-    <state x="2269" y="641" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603789108097" />
+    <state x="2269" y="641" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604022960048" />
     <state x="2505" y="607" width="430" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603976348290">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
@@ -859,7 +862,7 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state width="1878" height="354" key="GridCell.Tab.-1.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596185255455" />
-    <state width="279" height="1297" key="GridCell.Tab.0.bottom" timestamp="1603986724820">
+    <state width="674" height="1297" key="GridCell.Tab.0.bottom" timestamp="1604051766985">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1184" height="1342" key="GridCell.Tab.0.bottom/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600306545099" />
@@ -869,13 +872,14 @@
     <state width="813" height="274" key="GridCell.Tab.0.bottom/0.23.1440.829/-2560.23.2560.1417@0.23.1440.829" timestamp="1602394068124" />
     <state width="610" height="1297" key="GridCell.Tab.0.bottom/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602507249356" />
     <state width="581" height="709" key="GridCell.Tab.0.bottom/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@0.23.1440.829" timestamp="1602555439633" />
-    <state width="279" height="1297" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603986724820" />
+    <state width="674" height="1297" key="GridCell.Tab.0.bottom/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604051766985" />
     <state width="547" height="709" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1602991823087" />
     <state width="987" height="1249" key="GridCell.Tab.0.bottom/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1602738739376" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988631" />
     <state width="1878" height="198" key="GridCell.Tab.0.bottom/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076970" />
-    <state width="279" height="1297" key="GridCell.Tab.0.center" timestamp="1603986724819">
+    <state width="674" height="1297" key="GridCell.Tab.0.bottom/4000.263.1016.723/0.23.1440.829/1440.-431.2560.1417@1440.-431.2560.1417" timestamp="1604045760824" />
+    <state width="674" height="1297" key="GridCell.Tab.0.center" timestamp="1604051766983">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1184" height="1342" key="GridCell.Tab.0.center/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600306545096" />
@@ -885,13 +889,14 @@
     <state width="813" height="274" key="GridCell.Tab.0.center/0.23.1440.829/-2560.23.2560.1417@0.23.1440.829" timestamp="1602394068122" />
     <state width="610" height="1297" key="GridCell.Tab.0.center/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602507249355" />
     <state width="581" height="709" key="GridCell.Tab.0.center/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@0.23.1440.829" timestamp="1602555439631" />
-    <state width="279" height="1297" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603986724819" />
+    <state width="674" height="1297" key="GridCell.Tab.0.center/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604051766983" />
     <state width="547" height="709" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1602991823086" />
     <state width="987" height="1249" key="GridCell.Tab.0.center/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1602738739375" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.center/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
-    <state width="279" height="1297" key="GridCell.Tab.0.left" timestamp="1603986724818">
+    <state width="674" height="1297" key="GridCell.Tab.0.center/4000.263.1016.723/0.23.1440.829/1440.-431.2560.1417@1440.-431.2560.1417" timestamp="1604045760823" />
+    <state width="674" height="1297" key="GridCell.Tab.0.left" timestamp="1604051766982">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1184" height="1342" key="GridCell.Tab.0.left/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600306545094" />
@@ -901,13 +906,14 @@
     <state width="813" height="274" key="GridCell.Tab.0.left/0.23.1440.829/-2560.23.2560.1417@0.23.1440.829" timestamp="1602394068122" />
     <state width="610" height="1297" key="GridCell.Tab.0.left/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602507249354" />
     <state width="581" height="709" key="GridCell.Tab.0.left/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@0.23.1440.829" timestamp="1602555439630" />
-    <state width="279" height="1297" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603986724818" />
+    <state width="674" height="1297" key="GridCell.Tab.0.left/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604051766982" />
     <state width="547" height="709" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1602991823086" />
     <state width="987" height="1249" key="GridCell.Tab.0.left/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1602738739375" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265594" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988629" />
     <state width="1878" height="198" key="GridCell.Tab.0.left/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076968" />
-    <state width="279" height="1297" key="GridCell.Tab.0.right" timestamp="1603986724819">
+    <state width="674" height="1297" key="GridCell.Tab.0.left/4000.263.1016.723/0.23.1440.829/1440.-431.2560.1417@1440.-431.2560.1417" timestamp="1604045760821" />
+    <state width="674" height="1297" key="GridCell.Tab.0.right" timestamp="1604051766984">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1184" height="1342" key="GridCell.Tab.0.right/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600306545097" />
@@ -917,12 +923,13 @@
     <state width="813" height="274" key="GridCell.Tab.0.right/0.23.1440.829/-2560.23.2560.1417@0.23.1440.829" timestamp="1602394068124" />
     <state width="610" height="1297" key="GridCell.Tab.0.right/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602507249356" />
     <state width="581" height="709" key="GridCell.Tab.0.right/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@0.23.1440.829" timestamp="1602555439632" />
-    <state width="279" height="1297" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603986724819" />
+    <state width="674" height="1297" key="GridCell.Tab.0.right/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604051766984" />
     <state width="547" height="709" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1602991823087" />
     <state width="987" height="1249" key="GridCell.Tab.0.right/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1602738739376" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597233265595" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596510988630" />
     <state width="1878" height="198" key="GridCell.Tab.0.right/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597151076969" />
+    <state width="674" height="1297" key="GridCell.Tab.0.right/4000.263.1016.723/0.23.1440.829/1440.-431.2560.1417@1440.-431.2560.1417" timestamp="1604045760823" />
     <state width="2516" height="496" key="GridCell.Tab.1.bottom" timestamp="1603959164382">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
@@ -978,7 +985,7 @@
     <state x="-1362" y="-59" width="1360" height="722" key="SettingsEditor/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598263590764" />
     <state x="-1816" y="154" key="SettingsEditor/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602678436759" />
     <state x="-1338" y="135" key="SettingsEditor/0.25.1280.725/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596509565538" />
-    <state x="2187" y="382" key="Vcs.Push.Dialog.v2" timestamp="1603867145616">
+    <state x="2187" y="382" key="Vcs.Push.Dialog.v2" timestamp="1603987846664">
       <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="-1813" y="365" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600253767858" />
@@ -987,7 +994,7 @@
     <state x="-1813" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1603258918038" />
     <state x="-1813" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602427534216" />
     <state x="109" y="235" key="Vcs.Push.Dialog.v2/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-5120.23.2560.1417" timestamp="1601608274078" />
-    <state x="2187" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603867145616" />
+    <state x="2187" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1603987846664" />
     <state x="-1813" y="370" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1600178937224" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.724/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1596630119194" />
     <state x="-1360" y="292" key="Vcs.Push.Dialog.v2/0.25.1280.726/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1597148825416" />

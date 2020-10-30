@@ -1,4 +1,4 @@
-package Acwing提高课.数字三角形模型;
+package Acwing提高课.DP.数字三角形模型;
 
 
 /*
