@@ -1,2 +1,2 @@
-# LeetCode
- LeetCode题练习
+# 算法题
+ 包含各种算法模版题
