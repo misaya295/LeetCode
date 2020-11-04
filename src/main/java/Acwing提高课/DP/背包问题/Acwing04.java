@@ -37,6 +37,8 @@ package Acwing提高课.DP.背包问题;
 输出样例：
 10
  */
+
+
 import java.util.Scanner;
 public class Acwing04 {
     static int N =110;
@@ -46,7 +48,6 @@ public class Acwing04 {
     static int[][] f = new int[N][N];
     static int n, m;
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         m = sc.nextInt();
@@ -56,7 +57,6 @@ public class Acwing04 {
             s[i] = sc.nextInt();
         }
         for(int i=1;i<= n;i++){
-
             for (int j = 0; j <= m; j++) {
 
                 for (int k = 0; k <= s[i] && k * v[i] <= j; k++) {
