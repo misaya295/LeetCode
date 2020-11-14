@@ -54,6 +54,7 @@ public class Num1230 {
             sum[(int)(S[i] % K)]++;
         }
         System.out.println(res);
+
         //O(n2)过不了
 //            int sum = 0;
 //            for (int i = 1; i <= N; i++) {
