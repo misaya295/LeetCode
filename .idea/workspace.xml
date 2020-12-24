@@ -22,14 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="国赛结束咯 休息一天">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/LC/LC_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题11/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题13/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题14/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题15/Solution.java" afterDir="false" />
+    <list default="true" id="c27af5a4-5056-438a-b846-e5d1ce6c8bb2" name="Default Changelist" comment="随便写写">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Acwing算法基础/第三讲/树的重心/Acwing876.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题10/II/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/题10/II/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +169,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -415,13 +421,8 @@
       <workItem from="1605492059957" duration="952000" />
       <workItem from="1606016220809" duration="740000" />
       <workItem from="1606019426335" duration="11801000" />
-    </task>
-    <task id="LOCAL-00035" summary="跳板 数学">
-      <created>1594263068071</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1594263068071</updated>
+      <workItem from="1606714230979" duration="907000" />
+      <workItem from="1608776001336" duration="1243000" />
     </task>
     <task id="LOCAL-00036" summary="字符串匹配 dp">
       <created>1594305627713</created>
@@ -759,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605364838516</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="随便写写">
+      <created>1606714534082</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1606714534083</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +787,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Acwing蓝桥杯 二分" />
     <MESSAGE value="acwing数学与简单DP 枚举" />
     <MESSAGE value="模拟" />
     <MESSAGE value="树状数组" />
@@ -804,7 +811,8 @@
     <MESSAGE value="Acwing提高课 Flood_fill" />
     <MESSAGE value="Acwing提高课 dfs" />
     <MESSAGE value="国赛结束咯 休息一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="国赛结束咯 休息一天" />
+    <MESSAGE value="随便写写" />
+    <option name="LAST_COMMIT_MESSAGE" value="随便写写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1813" y="284" key="#Project_Structure" timestamp="1602322580063">
@@ -822,7 +830,6 @@
     <state x="2388" y="341" key="#com.intellij.ide.util.MemberChooser" timestamp="1606029377432">
       <screen x="1440" y="25" width="2560" height="1415" />
     </state>
-    <state x="-1209" y="79" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597806901284" />
     <state x="-1612" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602769986278" />
     <state x="2388" y="339" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604977003184" />
     <state x="-1612" y="328" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1600173487432" />
@@ -982,11 +989,10 @@
     <state x="-1816" y="154" key="SettingsEditor/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602678436759" />
     <state x="2184" y="155" key="SettingsEditor/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1604485208444" />
     <state x="488" y="114" width="900" height="722" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1604470158603" />
-    <state x="2187" y="382" key="Vcs.Push.Dialog.v2" timestamp="1605365032328">
-      <screen x="1440" y="23" width="2560" height="1417" />
+    <state x="2187" y="383" key="Vcs.Push.Dialog.v2" timestamp="1606714540538">
+      <screen x="1440" y="25" width="2560" height="1415" />
     </state>
     <state x="-1813" y="365" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1600253767858" />
-    <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.808/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597415204204" />
     <state x="-1360" y="111" key="Vcs.Push.Dialog.v2/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1598977109382" />
     <state x="-1813" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1603258918038" />
     <state x="-1813" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/-5120.23.2560.1417/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602427534216" />
@@ -994,14 +1000,11 @@
     <state x="2187" y="370" key="Vcs.Push.Dialog.v2/0.23.1440.829/1440.23.2560.1369@1440.23.2560.1369" timestamp="1605364919025" />
     <state x="2187" y="382" key="Vcs.Push.Dialog.v2/0.23.1440.829/1440.23.2560.1417@1440.23.2560.1417" timestamp="1605365032328" />
     <state x="-1813" y="370" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.23.2560.1369@-2560.23.2560.1369" timestamp="1600178937224" />
+    <state x="2187" y="383" key="Vcs.Push.Dialog.v2/0.25.1440.819/1440.25.2560.1415@1440.25.2560.1415" timestamp="1606714540538" />
     <state x="-106" y="23" width="1569" height="829" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602814836746">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="-106" y="23" width="1569" height="829" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.829/-2560.23.2560.1417@-2560.23.2560.1417" timestamp="1602814836746" />
-    <state x="-965" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597415163522">
-      <screen x="-1920" y="-157" width="1920" height="1057" />
-    </state>
-    <state x="-965" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.808/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1597415163522" />
     <state x="2063" y="387" width="739" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606055843786">
       <screen x="1440" y="25" width="2560" height="1415" />
     </state>
